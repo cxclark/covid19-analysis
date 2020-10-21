@@ -1,0 +1,4 @@
+sex,race_ethnicity,status,cdc_report_dt,onset_dt,county,state,age_group
+Female,9414,10691,10691,8773,10542,10691,10691
+Male,19809,21234,21234,10209,20943,21234,21234
+Unknown,354,536,536,44,491,536,536
