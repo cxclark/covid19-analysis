@@ -4,7 +4,7 @@
 
 |Column Label|dtype|Description
 |------------|----|-----------|
-health_ins_noninst_pop|int|(Discrete)|Total population civilian noninstitutionalized used to calculate yes/no coverage percentages
+health_ins_noninst_pop|int|(Discrete)|Total population civilian noninstitutionalized used to calculate yes/no percentages
 health_ins_noninst_pop_cov_no|int| (Discrete): Population civilian noninstitutionalized without health insurance coverage
 health_ins_noninst_pop_cov_yes|int|(Discrete): Population civilian noninstitutionalized with health insurance coverage
 health_ins_noninst_pop_private|int|(Discrete): Population civilian noninstitutionalized with private health insurance
