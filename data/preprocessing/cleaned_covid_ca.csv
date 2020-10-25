@@ -1,0 +1,59 @@
+Geographic Area Name,total_cases,total_fatalities,death_rate,total_tests
+"Santa Clara County, California",23978.0,388.0,0.016181499708065726,839764
+"San Mateo County, California",10942.0,159.0,0.014531164320965089,285657
+"Santa Barbara County, California",9781.0,120.0,0.012268684183621306,158693
+"Tuolumne County, California",269.0,4.0,0.01486988847583643,20986
+"Sierra County, California",6.0,0.0,0.0,641
+"Placer County, California",4093.0,57.0,0.013926215489860738,101974
+"San Luis Obispo County, California",4119.0,32.0,0.007768875940762321,114421
+"Solano County, California",7189.0,74.0,0.01029350396439004,164374
+"Monterey County, California",11153.0,91.0,0.008159239666457456,156994
+"Yuba County, California",1210.0,10.0,0.008264462809917356,20411
+"San Francisco County, California",12073.0,140.0,0.011596123581545598,588157
+"Orange County, California",57928.0,1444.0,0.024927496202182018,955802
+"Mono County, California",167.0,2.0,0.011976047904191617,5572
+"Calaveras County, California",274.0,18.0,0.06569343065693431,10811
+"Alpine County, California",3.0,0.0,0.0,371
+"Nevada County, California",608.0,8.0,0.013157894736842105,29739
+"Butte County, California",3078.0,52.0,0.016894087069525665,68116
+"Santa Cruz County, California",2775.0,25.0,0.009009009009009009,82057
+"Mendocino County, California",1022.0,21.0,0.02054794520547945,35337
+"Fresno County, California",30752.0,436.0,0.014177939646201874,353760
+"Inyo County, California",226.0,15.0,0.06637168141592921,5314
+"San Joaquin County, California",21458.0,489.0,0.02278870351384099,239765
+"Ventura County, California",14240.0,164.0,0.011516853932584269,344102
+"Trinity County, California",25.0,0.0,0.0,3634
+"Mariposa County, California",77.0,2.0,0.025974025974025976,5100
+"El Dorado County, California",1317.0,4.0,0.0030372057706909645,50633
+"Sonoma County, California",9179.0,134.0,0.014598540145985401,189194
+"Shasta County, California",1878.0,30.0,0.01597444089456869,47358
+"Lassen County, California",764.0,1.0,0.0013089005235602095,21067
+"Colusa County, California",548.0,6.0,0.010948905109489052,5629
+"Lake County, California",696.0,15.0,0.021551724137931036,21300
+"Modoc County, California",28.0,0.0,0.0,1863
+"Tulare County, California",17406.0,286.0,0.016431115707227394,162667
+"San Benito County, California",1417.0,15.0,0.01058574453069866,23943
+"Alameda County, California",23099.0,460.0,0.019914282003549937,613097
+"Marin County, California",7042.0,128.0,0.018176654359556944,136692
+"San Diego County, California",54330.0,868.0,0.01597644027240935,994760
+"Glenn County, California",650.0,3.0,0.004615384615384616,8311
+"Siskiyou County, California",174.0,0.0,0.0,10549
+"Madera County, California",4898.0,74.0,0.015108207431604737,59390
+"Tehama County, California",872.0,8.0,0.009174311926605505,19866
+"Sutter County, California",1804.0,12.0,0.0066518847006651885,27298
+"Napa County, California",1957.0,15.0,0.007664793050587634,66469
+"Los Angeles County, California",296323.0,6989.0,0.023585749334341242,6519149
+"Sacramento County, California",25372.0,484.0,0.019076146933627622,459201
+"Merced County, California",9351.0,155.0,0.01657576729761523,89557
+"Kings County, California",8228.0,83.0,0.010087506076810889,74406
+"Kern County, California",33105.0,416.0,0.012566077631777677,281693
+"Riverside County, California",65902.0,1279.0,0.01940760523201117,737343
+"Contra Costa County, California",18567.0,241.0,0.012980018312059029,410878
+"Del Norte County, California",171.0,1.0,0.005847953216374269,13822
+"San Bernardino County, California",61351.0,1072.0,0.01747322782024743,714835
+"Stanislaus County, California",17574.0,396.0,0.022533287811539775,177068
+"Humboldt County, California",553.0,9.0,0.0162748643761302,42400
+"Plumas County, California",63.0,0.0,0.0,4309
+"Amador County, California",328.0,16.0,0.04878048780487805,12203
+"Imperial County, California",12469.0,336.0,0.026946828133771753,93652
+"Yolo County, California",3164.0,58.0,0.018331226295828066,68725
