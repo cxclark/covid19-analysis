@@ -60,7 +60,7 @@ Geographic Area Name,obes_percent
 "Deaf Smith County, Texas",0.261
 "Delta County, Texas",0.292
 "Denton County, Texas",0.317
-"Dewitt County, Texas",0.255
+"DeWitt County, Texas",0.255
 "Dickens County, Texas",0.18
 "Dimmit County, Texas",0.265
 "Donley County, Texas",0.307
@@ -158,9 +158,9 @@ Geographic Area Name,obes_percent
 "Mason County, Texas",0.253
 "Matagorda County, Texas",0.36200000000000004
 "Maverick County, Texas",0.307
-"Mcculloch County, Texas",0.31
-"Mclennan County, Texas",0.342
-"Mcmullen County, Texas",0.24100000000000002
+"McCulloch County, Texas",0.31
+"McLennan County, Texas",0.342
+"McMullen County, Texas",0.24100000000000002
 "Medina County, Texas",0.37
 "Menard County, Texas",0.29100000000000004
 "Midland County, Texas",0.345
@@ -323,7 +323,7 @@ Geographic Area Name,obes_percent
 "Clay County, Florida",0.10400000000000001
 "Collier County, Florida",0.065
 "Columbia County, Florida",0.128
-"Desoto County, Florida",0.12300000000000001
+"DeSoto County, Florida",0.12300000000000001
 "Dixie County, Florida",0.11199999999999999
 "Duval County, Florida",0.12300000000000001
 "Escambia County, Florida",0.11699999999999999
@@ -397,9 +397,9 @@ Geographic Area Name,obes_percent
 "Crawford County, Illinois",0.09
 "Cumberland County, Illinois",0.087
 "De Witt County, Illinois",0.16699999999999998
-"Dekalb County, Illinois",0.068
+"DeKalb County, Illinois",0.068
 "Douglas County, Illinois",0.09300000000000001
-"Dupage County, Illinois",0.064
+"DuPage County, Illinois",0.064
 "Edgar County, Illinois",0.085
 "Edwards County, Illinois",0.061
 "Effingham County, Illinois",0.115
@@ -427,7 +427,7 @@ Geographic Area Name,obes_percent
 "Kendall County, Illinois",0.086
 "Knox County, Illinois",0.109
 "Lake County, Illinois",0.076
-"Lasalle County, Illinois",0.12
+"LaSalle County, Illinois",0.12
 "Lawrence County, Illinois",0.175
 "Lee County, Illinois",0.06
 "Livingston County, Illinois",0.1
@@ -439,9 +439,9 @@ Geographic Area Name,obes_percent
 "Marshall County, Illinois",0.099
 "Mason County, Illinois",0.071
 "Massac County, Illinois",0.142
-"Mcdonough County, Illinois",0.11
-"Mchenry County, Illinois",0.078
-"Mclean County, Illinois",0.10099999999999999
+"McDonough County, Illinois",0.11
+"McHenry County, Illinois",0.078
+"McLean County, Illinois",0.10099999999999999
 "Menard County, Illinois",0.094
 "Mercer County, Illinois",0.068
 "Monroe County, Illinois",0.081
