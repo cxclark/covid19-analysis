@@ -25,6 +25,7 @@
 |inc_med_earn_female_full_yr_workers_dol|int|(Discrete): Median earnings for female full-time, year-round workers (dollars)|
 |inc_med_earn_male_full_yr_workers_dol|int|(Discrete): Median earnings for male full-time, year-round workers (dollars)|
 |inc_per_capita_inc_dol|int|(Discrete): Per capita income (dollars)|
+|obes_percent|float|(Continuous): Population obesity percentage|
 |pop_density|float|(Continuous): People per square mile|
 |race_pop|int|(Discrete): Total population used to calculate race demographic percentages|
 |race_pop_american_indian_and_alaska_native_alone|int|(Discrete): Population American Indian and Alaska Native| 
