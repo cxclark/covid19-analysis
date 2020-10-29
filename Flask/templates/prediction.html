@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" crossorigin="anonymous">
+		<style>
+			body {text-align: center;} 
+			body {background-color: lightblue;}
+			img {text-align: center;}
+			p {text-align: center;}
+			p {font-family:verdana;}
+		</style>
+        <title>Covid Severity</title>
+    </head>
+<body>
+	<a href = "https://www.fda.gov/food/food-safety-during-emergencies/food-safety-and-coronavirus-disease-2019-covid-19">
+		<img
+		src = "https://www.fda.gov/files/styles/featured_content_background_image/public/covid19-1600x900.jpg?itok=ZvOhgrde"
+		alt = "Covid-19 Picture"
+		width = "500"
+		height = "225"
+		/>
+    </a>
+    
+    <h1> Welcome to COVID-19 Predictor</h1>
+
+    <form action="/predictor">
+		<p>
+			<label for='pop_density'>Pop-Density</label><br>
+			<input type="number" name='pop_density'>
+		</p>
+		<p>
+			<label for='tests_per_100_people'>Test per 100 People</label><br>
+			<input type="number" name='tests_per_100_people'>
+		</p>		
+		<p>
+			<label for='percent_sex_age_pop_male'>Gender: Male</label><br>
+			<input type="number" name='percent_sex_age_pop_male'>
+		</p>
+		<p>
+			<label for='inc_per_capita_inc_dol'>Income</label><br>
+			<input type="number" name='inc_per_capita_inc_dol'>
+        </p>
+        <p>
+			<label for='percent_health_ins_noninst_pop_cov_yes'>Health Insurance %</label><br>
+			<input type="number" name='percent_health_ins_noninst_pop_cov_yes'>
+        </p>
+        <p>
+			<label for="percent_sex_age_pop_45_to_74">Age 45-74 %</label><br>
+			<input type="number" name="percent_sex_age_pop_45_to_74">
+        </p>
+		<p><button type="submit">Submit</button></p>
+	</form>
+</body>
+</html>
