@@ -17,7 +17,7 @@ def home():
 def camap():
 
     df = pd.read_csv('data/ca_counties.csv')
-    with open('data/ca-counties.geojson') as f:
+    with open('data/ca-counties2.geojson') as f:
         json_counties = json.load(f)
     
     for i in json_counties['features']:
@@ -39,10 +39,10 @@ def camap():
         ).add_to(m_ca)
     
     choropleth.geojson.add_child(folium.features.GeoJsonTooltip(
-        ['name', 'Severity'],
+        ['name', 'Severity', 'Pop', 'Income', 'Insurance', 'Sex', 'Age', 'Test', 'Obesity'],
+        aliases = ['County', 'Severity', 'Pop-Den', 'Inc/Capita', 'Insurance', 'Gender: Male', 'Age 45-74', 'Test/100 ppl', 'Obesity Rate'],
         style=('background-color: grey; color: white;'),
-        localize=True,
-        labels = False
+        localize=True
         ).add_to(m_ca))
 
     folium.LayerControl().add_to(m_ca)
@@ -52,7 +52,7 @@ def camap():
 @app.route('/Florida')
 def flmap():
     df = pd.read_csv('data/fl_folium.csv')
-    with open('data/fl-counties.geojson') as f:
+    with open('data/fl-counties2.geojson') as f:
         json_counties = json.load(f)
     
     for i in json_counties['features']:
@@ -74,10 +74,10 @@ def flmap():
         ).add_to(m_fl)
 
     choropleth.geojson.add_child(folium.features.GeoJsonTooltip(
-        ['NAME10', 'Severity'],
+        ['NAME10', 'Severity', 'Pop', 'Income', 'Insurance', 'Sex', 'Age', 'Test', 'Obesity'],
+        aliases = ['County', 'Severity', 'Pop-Den', 'Inc/Capita', 'Insurance', 'Gender: Male', 'Age 45-74', 'Test/100 ppl', 'Obesity Rate'],
         style=('background-color: grey; color: white;'),
-        localize=True,
-        labels = False
+        localize=True
         ).add_to(m_fl))
 
     folium.LayerControl().add_to(m_fl)
@@ -87,7 +87,7 @@ def flmap():
 @app.route('/Illinois')
 def ilmap():
     df = pd.read_csv('data/il_counties.csv')
-    with open('data/il-counties.geojson') as f:
+    with open('data/il-counties2.geojson') as f:
         json_counties = json.load(f)
     
     for i in json_counties['features']:
@@ -109,10 +109,10 @@ def ilmap():
         ).add_to(m_il)
     
     choropleth.geojson.add_child(folium.features.GeoJsonTooltip(
-        ['name', 'Severity'],
+        ['name', 'Severity', 'Pop', 'Income', 'Insurance', 'Sex', 'Age', 'Test', 'Obesity'],
+        aliases = ['County', 'Severity', 'Pop-Den', 'Inc/Capita', 'Insurance', 'Gender: Male', 'Age 45-74', 'Test/100 ppl', 'Obesity Rate'],
         style=('background-color: grey; color: white;'),
-        localize=True,
-        labels = False
+        localize=True
         ).add_to(m_il))
 
     folium.LayerControl().add_to(m_il)
@@ -123,7 +123,7 @@ def ilmap():
 def nymap():
 
     df = pd.read_csv('data/ny_folium.csv')
-    with open('data/ny-counties.geojson') as f:
+    with open('data/ny-counties2.geojson') as f:
         json_counties = json.load(f)
     
     for i in json_counties['features']:
@@ -145,10 +145,10 @@ def nymap():
         ).add_to(m_ny)
     
     choropleth.geojson.add_child(folium.features.GeoJsonTooltip(
-        ['name', 'Severity'],
+        ['name', 'Severity', 'Pop', 'Income', 'Insurance', 'Sex', 'Age', 'Test', 'Obesity'],
+        aliases = ['County', 'Severity', 'Pop-Den', 'Inc/Capita', 'Insurance', 'Gender: Male', 'Age 45-74', 'Test/100 ppl', 'Obesity Rate'],
         style=('background-color: grey; color: white;'),
-        localize=True,
-        labels = False
+        localize=True
         ).add_to(m_ny))
 
     folium.LayerControl().add_to(m_ny)
@@ -158,7 +158,7 @@ def nymap():
 @app.route('/Texas')
 def txmap():
     df = pd.read_csv('data/tx_folium.csv')
-    with open('data/tx-counties.geojson') as f:
+    with open('data/tx-counties2.geojson') as f:
         json_counties = json.load(f)
     
     for i in json_counties['features']:
@@ -180,15 +180,20 @@ def txmap():
         ).add_to(m_tx)
 
     choropleth.geojson.add_child(folium.features.GeoJsonTooltip(
-        ['COUNTY','Severity'],
+        ['COUNTY','Severity', 'Pop', 'Income', 'Insurance', 'Sex', 'Age', 'Test', 'Obesity'],
+        aliases = ['County', 'Severity', 'Pop-Den', 'Inc/Capita', 'Insurance', 'Gender: Male', 'Age 45-74', 'Test/100 ppl', 'Obesity Rate'],
         style=('background-color: grey; color: white;'),
-        localize=True,
-        labels = False
+        localize=True
         ).add_to(m_tx))
     
     folium.LayerControl().add_to(m_tx)
     
     return m_tx._repr_html_()
+
+@app.route('/Prediction')
+
+def prediction():
+    return render_template('prediction.html')
 
 if __name__ == '__main__':
     app.run(debug = True)
