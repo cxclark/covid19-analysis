@@ -5,7 +5,6 @@ import pickle
 import requests
 import folium
 import json
-import branca
 
 app = Flask("myApp")
 
@@ -17,20 +16,20 @@ def home():
 @app.route('/California')
 def camap():
 
-    df = pd.read_csv('data/ca_folium.csv')
-    with open('data/california-counties.geojson') as f:
+    df = pd.read_csv('data/ca_counties.csv')
+    with open('data/ca-counties.geojson') as f:
         json_counties = json.load(f)
     
     for i in json_counties['features']:
         i['id'] = i['properties']['name']
     
     m_ca = folium.Map(location = [36.17, -119.7462], zoom_start = 6)
-    
-    folium.Choropleth(
+
+    choropleth = folium.Choropleth(
         geo_data = json_counties,
         name = 'choropleth',
         data = df,
-        columns = ['county', 'death_rate'],
+        columns = ['county', 'covid_severity'],
         key_on = 'feature.id',
         fill_color = "Reds",
         fill_opacity = .6,
@@ -39,6 +38,13 @@ def camap():
         highlight = True
         ).add_to(m_ca)
     
+    choropleth.geojson.add_child(folium.features.GeoJsonTooltip(
+        ['name', 'Severity'],
+        style=('background-color: grey; color: white;'),
+        localize=True,
+        labels = False
+        ).add_to(m_ca))
+
     folium.LayerControl().add_to(m_ca)
     
     return m_ca._repr_html_()
@@ -46,7 +52,7 @@ def camap():
 @app.route('/Florida')
 def flmap():
     df = pd.read_csv('data/fl_folium.csv')
-    with open('data/tl_2010_12_county10.geojson') as f:
+    with open('data/fl-counties.geojson') as f:
         json_counties = json.load(f)
     
     for i in json_counties['features']:
@@ -54,11 +60,11 @@ def flmap():
     
     m_fl = folium.Map(location = [27.8333, -81.717], zoom_start = 6)
     
-    folium.Choropleth(
+    choropleth = folium.Choropleth(
         geo_data = json_counties,
         name = 'choropleth',
         data = df,
-        columns = ['county', 'death_rate'],
+        columns = ['county', 'covid_severity'],
         key_on = 'feature.id',
         fill_color = "Reds",
         fill_opacity = .6,
@@ -66,15 +72,22 @@ def flmap():
         legend_name = 'Death Rate',
         highlight = True
         ).add_to(m_fl)
-    
+
+    choropleth.geojson.add_child(folium.features.GeoJsonTooltip(
+        ['NAME10', 'Severity'],
+        style=('background-color: grey; color: white;'),
+        localize=True,
+        labels = False
+        ).add_to(m_fl))
+
     folium.LayerControl().add_to(m_fl)
     
     return m_fl._repr_html_()
 
 @app.route('/Illinois')
 def ilmap():
-    df = pd.read_csv('data/il_folium.csv')
-    with open('data/illinois-counties.geojson') as f:
+    df = pd.read_csv('data/il_counties.csv')
+    with open('data/il-counties.geojson') as f:
         json_counties = json.load(f)
     
     for i in json_counties['features']:
@@ -82,11 +95,11 @@ def ilmap():
     
     m_il = folium.Map(location = [40.3363,-89.0022], zoom_start = 6)
     
-    folium.Choropleth(
+    choropleth = folium.Choropleth(
         geo_data = json_counties,
         name = 'choropleth',
         data = df,
-        columns = ['county', 'death_rate'],
+        columns = ['county', 'covid_severity'],
         key_on = 'feature.id',
         fill_color = "Reds",
         fill_opacity = .6,
@@ -95,6 +108,13 @@ def ilmap():
         highlight = True
         ).add_to(m_il)
     
+    choropleth.geojson.add_child(folium.features.GeoJsonTooltip(
+        ['name', 'Severity'],
+        style=('background-color: grey; color: white;'),
+        localize=True,
+        labels = False
+        ).add_to(m_il))
+
     folium.LayerControl().add_to(m_il)
     
     return m_il._repr_html_()
@@ -103,7 +123,7 @@ def ilmap():
 def nymap():
 
     df = pd.read_csv('data/ny_folium.csv')
-    with open('data/new-york-counties.geojson') as f:
+    with open('data/ny-counties.geojson') as f:
         json_counties = json.load(f)
     
     for i in json_counties['features']:
@@ -111,11 +131,11 @@ def nymap():
     
     m_ny = folium.Map(location = [42.1497, -74.9384], zoom_start = 6)
     
-    folium.Choropleth(
+    choropleth = folium.Choropleth(
         geo_data = json_counties,
         name = 'choropleth',
         data = df,
-        columns = ['County', 'death_rate'],
+        columns = ['County', 'covid_severity'],
         key_on = 'feature.id',
         fill_color = "Reds",
         fill_opacity = .6,
@@ -124,6 +144,13 @@ def nymap():
         highlight = True
         ).add_to(m_ny)
     
+    choropleth.geojson.add_child(folium.features.GeoJsonTooltip(
+        ['name', 'Severity'],
+        style=('background-color: grey; color: white;'),
+        localize=True,
+        labels = False
+        ).add_to(m_ny))
+
     folium.LayerControl().add_to(m_ny)
     
     return m_ny._repr_html_()
@@ -131,7 +158,7 @@ def nymap():
 @app.route('/Texas')
 def txmap():
     df = pd.read_csv('data/tx_folium.csv')
-    with open('data/tx_counties.geojson') as f:
+    with open('data/tx-counties.geojson') as f:
         json_counties = json.load(f)
     
     for i in json_counties['features']:
@@ -139,11 +166,11 @@ def txmap():
     
     m_tx = folium.Map(location = [31.1060,-97.6475], zoom_start = 6)
     
-    folium.Choropleth(
+    choropleth = folium.Choropleth(
         geo_data = json_counties,
         name = 'choropleth',
         data = df,
-        columns = ['county', 'death_rate'],
+        columns = ['county', 'covid_severity'],
         key_on = 'feature.id',
         fill_color = "Reds",
         fill_opacity = .6,
@@ -151,6 +178,13 @@ def txmap():
         legend_name = 'Death Rate',
         highlight = True
         ).add_to(m_tx)
+
+    choropleth.geojson.add_child(folium.features.GeoJsonTooltip(
+        ['COUNTY','Severity'],
+        style=('background-color: grey; color: white;'),
+        localize=True,
+        labels = False
+        ).add_to(m_tx))
     
     folium.LayerControl().add_to(m_tx)
     
