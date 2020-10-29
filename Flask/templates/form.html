@@ -8,6 +8,7 @@
 			img {text-align: center;}
 			p {text-align: center;}
 			p {font-family:verdana;}
+			.button2 {background-color: #f44336;}
 		</style>
         <title>Covid Severity</title>
     </head>
@@ -20,8 +21,8 @@
 		height = "225"
 		/>
 	</a>
-	<h1> Welcome to COVID-19 Predictor</h1>
-	<p> Please click on your State of interest </p> 
+	<h1> Welcome to COVID-19 Severity Map and Predictor</h1>
+	<p> Please choose your State of interest or the predictor</p> 
 	
 	<form action="/California">		
 		<p>
@@ -49,11 +50,12 @@
 			<button type="submit" class = "btn btn-primary">Texas</button></p>
 			</form>
 			</div>
-	
-	<form action="/Prediction">	
+</body>
+<body>
+		<form action="/Prediction">	
 		<p>
-			<div class = 'w3-red'>
-			<button type="submit" class = "btn btn-primary">Predictor</button></p></form></div>
+			<div class = 'col-sm'>
+			<button  type="submit" class = "btn btn-danger">Predictor</button></p></form></div>
 	
 </body>
 </html>

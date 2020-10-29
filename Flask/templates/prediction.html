@@ -24,30 +24,30 @@
     <h1> Welcome to COVID-19 Predictor</h1>
 
     <form action="/predictor">
-		<p>
-			<label for='pop_density'>Pop-Density</label><br>
-			<input type="number" name='pop_density'>
-		</p>
-		<p>
-			<label for='tests_per_100_people'>Test per 100 People</label><br>
-			<input type="number" name='tests_per_100_people'>
-		</p>		
-		<p>
-			<label for='percent_sex_age_pop_male'>Gender: Male</label><br>
-			<input type="number" name='percent_sex_age_pop_male'>
-		</p>
-		<p>
-			<label for='inc_per_capita_inc_dol'>Income</label><br>
-			<input type="number" name='inc_per_capita_inc_dol'>
-        </p>
         <p>
-			<label for='percent_health_ins_noninst_pop_cov_yes'>Health Insurance %</label><br>
-			<input type="number" name='percent_health_ins_noninst_pop_cov_yes'>
+			<label for='inc_per_capita_inc_dol'>Income</label><br>
+			<input type="number" name='inc_per_capita_inc_dol' step = 0.0000001>
         </p>
         <p>
 			<label for="percent_sex_age_pop_45_to_74">Age 45-74 %</label><br>
-			<input type="number" name="percent_sex_age_pop_45_to_74">
-        </p>
+			<input type="number" name="percent_sex_age_pop_45_to_74" step = 0.0000001>
+        </p> 
+        <p>
+			<label for='percent_sex_age_pop_male'>Gender: Male %</label><br>
+			<input type="number" name='percent_sex_age_pop_male' step = 0.0000001>
+        </p> 
+        <p>
+			<label for='percent_health_ins_noninst_pop_cov_yes'>Health Insurance %</label><br>
+			<input type="number" name='percent_health_ins_noninst_pop_cov_yes' step = 0.0000001>
+        </p>   
+        <p>
+			<label for='pop_density'>Pop-Density</label><br>
+			<input type="number" name='pop_density' step = 0.00000001>
+		</p>
+		<p>
+			<label for='tests_per_100_people'>Test per 100 People</label><br>
+			<input type="number" name='tests_per_100_people' step = 0.0000001>
+		</p>		
 		<p><button type="submit">Submit</button></p>
 	</form>
 </body>
