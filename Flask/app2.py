@@ -195,5 +195,34 @@ def txmap():
 def prediction():
     return render_template('prediction.html')
 
+@app.route("/predictor")
+def make_predictions():
+
+    # load in the form data from the incoming request
+    user_input = request.args
+
+    X_test = np.array(
+        [
+            float(user_input["inc_per_capita_inc_dol"]),
+            (float(user_input["percent_sex_age_pop_45_to_74"])/100),
+            (float(user_input["percent_sex_age_pop_male"])/100),
+            (float(user_input["percent_health_ins_noninst_pop_cov_yes"])/100),
+            float(user_input["pop_density"]),
+            (float(user_input["tests_per_100_people"])/100)
+        ]
+    ).reshape(1, -1)
+
+    model = pickle.load(open("data/model.p", "rb"))
+    pred = model.predict(X_test)
+    pred = pred[0]
+
+    if pred == 1:
+        pred = 'Low'
+    elif pred == 2:
+        pred = 'Medium'
+    elif pred == 3:
+        pred = 'High'
+    return render_template("results.html", prediction=pred)
+
 if __name__ == '__main__':
     app.run(debug = True)
