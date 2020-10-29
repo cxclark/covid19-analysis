@@ -3,16 +3,22 @@
 	<head>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" crossorigin="anonymous">
 		<style>
+			html, body {
+    			height: 96%;}
 			body {text-align: center;} 
 			body {background-color: lightblue;}
 			img {text-align: center;}
 			p {text-align: center;}
 			p {font-family:verdana;}
+			#container {
+				height: 100%;
+    			border-collapse: collapse;
+				}
 		</style>
         <title>Prediction</title>
     </head>
 <body>
-	<div class='container'>
+	<div class = 'container'>
 		<div class='row'>
 			<div class='col-lg text-center'>
 			<h1>Predicted Severity is {{(prediction)}}.</h1>
@@ -23,11 +29,17 @@
 </html>
 
 <body>
-	<a href="https://github.com/codeforamerica/click_that_hood/blob/master/public/data/california-counties.geojson" target = '_blank'>CA.geojson</a>
-	<a href="https://www2.census.gov/geo/tiger/TIGER2010/COUNTY/2010/" target = '_blank'>FL.geojson</a>
-	<a href="https://github.com/codeforamerica/click_that_hood/blob/master/public/data/illinois-counties.geojson" target = '_blank'>IL.geojson</a>
-	<a href="https://github.com/codeforamerica/click_that_hood/blob/master/public/data/new-york-counties.geojson" target = '_blank'>NY.geojson</a>
-	<a href="https://github.com/TNRIS/tx.geojson/blob/master/counties/tx_counties.geojson" target = '_blank'>TX.geojson</a>
+	<table id = 'container'>
+		<tr>
+			<td valign = "bottom">
+				<a href="https://github.com/codeforamerica/click_that_hood/blob/master/public/data/california-counties.geojson" target = '_blank'>CA.geojson</a>
+				<a href="https://www2.census.gov/geo/tiger/TIGER2010/COUNTY/2010/" target = '_blank'>FL.geojson</a>
+				<a href="https://github.com/codeforamerica/click_that_hood/blob/master/public/data/illinois-counties.geojson" target = '_blank'>IL.geojson</a>
+				<a href="https://github.com/codeforamerica/click_that_hood/blob/master/public/data/new-york-counties.geojson" target = '_blank'>NY.geojson</a>
+				<a href="https://github.com/TNRIS/tx.geojson/blob/master/counties/tx_counties.geojson" target = '_blank'>TX.geojson</a>
+			</td>
+		</tr>
+	</table>
 </body>
 </html>
 
