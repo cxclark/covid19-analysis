@@ -1,544 +1,544 @@
-Geographic Area Name,health_ins_noninst_pop,health_ins_noninst_pop_cov_yes,health_ins_noninst_pop_private,health_ins_noninst_pop_public,health_ins_noninst_pop_cov_no
-"Austin County, Texas",29298,25749,20393,8863,3549
-"Kenedy County, Texas",595,467,212,276,128
-"Nueces County, Texas",355767,295165,208747,119691,60602
-"Colorado County, Texas",20703,17886,13815,6868,2817
-"San Patricio County, Texas",66274,54752,39263,21923,11522
-"Rains County, Texas",11410,9116,6240,4688,2294
-"Randall County, Texas",131586,117531,100621,33372,14055
-"Real County, Texas",3295,2386,1610,1560,909
-"San Saba County, Texas",5290,4286,3109,2203,1004
-"Schleicher County, Texas",3061,2414,2066,689,647
-"Sterling County, Texas",1103,880,672,316,223
-"Zavala County, Texas",11935,9741,4443,6018,2194
-"Calhoun County, Texas",21584,17492,12854,6878,4092
-"Carson County, Texas",6003,5319,4596,1437,684
-"Foard County, Texas",1373,1191,856,538,182
-"Freestone County, Texas",18047,15220,11020,6991,2827
-"Goliad County, Texas",7428,6634,5154,2647,794
-"Hamilton County, Texas",8044,6639,4724,3273,1405
-"Hardeman County, Texas",3940,3318,2329,1611,622
-"Mitchell County, Texas",6308,5421,4090,2177,887
-"Briscoe County, Texas",1546,1208,938,539,338
-"Lavaca County, Texas",19506,17325,13831,6348,2181
-"Terry County, Texas",11528,8940,5643,4396,2588
-"Jeff Davis County, Texas",2172,1877,1395,998,295
-"Jim Hogg County, Texas",5253,4265,2510,2389,988
-"Montgomery County, Texas",551489,472786,385596,133016,78703
-"Dallam County, Texas",7204,5408,4039,1856,1796
-"Webb County, Texas",269779,193922,108913,97148,75857
-"Armstrong County, Texas",1853,1712,1378,585,141
-"Castro County, Texas",7696,5687,3649,2893,2009
-"Kleberg County, Texas",30628,25323,17697,11055,5305
-"Willacy County, Texas",20254,14556,6599,9056,5698
-"Crosby County, Texas",5780,4602,2780,2446,1178
-"Fisher County, Texas",3860,3267,2514,1406,593
-"Duval County, Texas",10856,8200,4568,5071,2656
-"Blanco County, Texas",11176,9163,7531,3669,2013
-"Jasper County, Texas",34587,28798,19829,13936,5789
-"Kinney County, Texas",3419,2919,1772,1586,500
-"Deaf Smith County, Texas",18691,14880,10375,5966,3811
-"Galveston County, Texas",321952,276296,224321,86982,45656
-"La Salle County, Texas",6471,4846,3469,2035,1625
-"Roberts County, Texas",885,812,691,278,73
-"Tyler County, Texas",18777,15959,10689,8536,2818
-"Wheeler County, Texas",5413,4348,3347,1683,1065
-"Bowie County, Texas",88388,75530,54941,31804,12858
-"Brewster County, Texas",9131,7595,6095,2889,1536
-"Kent County, Texas",707,668,525,245,39
-"Smith County, Texas",222704,184420,139290,73592,38284
-"Crockett County, Texas",3559,3018,2241,910,541
-"Hardin County, Texas",55918,47649,38068,16535,8269
-"Howard County, Texas",31813,26274,19426,10082,5539
-"Leon County, Texas",17003,13948,9834,7052,3055
-"Montague County, Texas",19113,15386,11910,6469,3727
-"Panola County, Texas",23205,19160,13936,8458,4045
-"Erath County, Texas",40979,33689,26740,10469,7290
-"Brazoria County, Texas",342641,296664,249624,74395,45977
-"Motley County, Texas",1156,920,610,609,236
-"Donley County, Texas",3322,2812,2125,1157,510
-"Atascosa County, Texas",48397,40732,30168,15883,7665
-"Coleman County, Texas",8358,6437,4525,3383,1921
-"Nolan County, Texas",14785,12234,8963,5179,2551
-"Hudspeth County, Texas",3377,2586,1241,1620,791
-"Medina County, Texas",46905,40650,32565,14981,6255
-"Ward County, Texas",11477,9448,7216,3169,2029
-"Henderson County, Texas",79500,64594,44883,32678,14906
-"Harrison County, Texas",65875,56065,41879,21476,9810
-"Menard County, Texas",2074,1422,1095,775,652
-"Lamar County, Texas",48942,40530,27453,19037,8412
-"Fayette County, Texas",24647,21995,17577,8205,2652
-"Williamson County, Texas",523527,474565,419178,110149,48962
-"Polk County, Texas",44229,36096,23622,17889,8133
-"Refugio County, Texas",7070,5948,4239,2855,1122
-"Caldwell County, Texas",39420,31017,21963,12887,8403
-"Wilbarger County, Texas",12720,10907,8069,4777,1813
-"Reagan County, Texas",3716,2800,2408,634,916
-"Hale County, Texas",32366,26187,18237,10678,6179
-"Shelby County, Texas",25304,19118,12621,9356,6186
-"Runnels County, Texas",10093,8515,6330,3766,1578
-"San Jacinto County, Texas",27678,22254,13432,12743,5424
-"Tom Green County, Texas",112652,95645,75721,34164,17007
-"Victoria County, Texas",90951,76546,57304,28877,14405
-"Waller County, Texas",49757,39814,30369,13242,9943
-"Wichita County, Texas",116887,100745,75743,40658,16142
-"Wilson County, Texas",47533,40715,32961,13554,6818
-"Hockley County, Texas",22950,18719,13595,7421,4231
-"Maverick County, Texas",57698,40321,22777,19871,17377
-"Midland County, Texas",162946,134490,114797,31960,28456
-"Live Oak County, Texas",10652,8609,6273,3721,2043
-"Llano County, Texas",20429,17006,12501,9925,3423
-"Fannin County, Texas",31300,26291,18710,11381,5009
-"Karnes County, Texas",12806,11029,8062,4353,1777
-"Brazos County, Texas",214943,186806,160590,43733,28137
-"Cass County, Texas",29691,25112,17684,11986,4579
-"Gaines County, Texas",20212,13803,9884,4751,6409
-"Gray County, Texas",21117,17296,12359,7532,3821
-"Madison County, Texas",10531,9029,6486,3820,1502
-"Jack County, Texas",7684,6346,4815,2637,1338
-"Kendall County, Texas",41551,37727,32693,11739,3824
-"Bosque County, Texas",17776,14594,10791,6652,3182
-"Bexar County, Texas",1895810,1608911,1205586,592223,286899
-"Bailey County, Texas",6895,5474,3638,2624,1421
-"Baylor County, Texas",3517,3058,2385,1282,459
-"Cameron County, Texas",419590,299693,159381,161742,119897
-"Denton County, Texas",803126,710804,628614,139994,92322
-"Washington County, Texas",34144,30186,23670,11810,3958
-"Morris County, Texas",12272,10490,7701,4617,1782
-"Stephens County, Texas",8895,7038,4691,3359,1857
-"Harris County, Texas",4581010,3657243,2643160,1294937,923767
-"Andrews County, Texas",17725,14496,11313,4332,3229
-"Gillespie County, Texas",25851,20998,16326,9813,4853
-"Gonzales County, Texas",20384,16323,10461,7731,4061
-"Lynn County, Texas",5766,4755,3221,2261,1011
-"Young County, Texas",17825,14512,10708,6048,3313
-"Zapata County, Texas",14334,10128,4596,6540,4206
-"Hood County, Texas",56208,47617,36001,20217,8591
-"Hopkins County, Texas",35802,29202,20840,12601,6600
-"Ochiltree County, Texas",10285,8140,6621,2288,2145
-"King County, Texas",228,210,150,73,18
-"Knox County, Texas",3590,3022,2051,1452,568
-"McLennan County, Texas",244239,207404,158338,77096,36835
-"Cherokee County, Texas",49308,40034,27340,19786,9274
-"Concho County, Texas",3068,2544,1957,1028,524
-"Delta County, Texas",5149,4367,3051,2071,782
-"Edwards County, Texas",2043,1792,1034,1183,251
-"Eastland County, Texas",18007,15083,10261,7858,2924
-"Jones County, Texas",12690,10923,7686,5493,1767
-"Reeves County, Texas",12925,10281,7621,3585,2644
-"Sabine County, Texas",10370,8855,5914,5390,1515
-"Sherman County, Texas",3026,2430,2006,738,596
-"Swisher County, Texas",6830,5540,3522,2847,1290
-"Hunt County, Texas",91346,75795,55072,31012,15551
-"Camp County, Texas",12760,10639,7583,4746,2121
-"Hansford County, Texas",5463,4386,3468,1398,1077
-"Guadalupe County, Texas",152940,135375,112769,41595,17565
-"Clay County, Texas",10321,8885,6666,3970,1436
-"Hill County, Texas",34754,29129,20761,13269,5625
-"Nacogdoches County, Texas",64791,52520,38257,20424,12271
-"Parmer County, Texas",9772,7773,5620,3015,1999
-"Presidio County, Texas",7123,4988,2491,2903,2135
-"Val Verde County, Texas",46335,37714,25159,16463,8621
-"Ector County, Texas",157175,123453,95751,38448,33722
-"Glasscock County, Texas",1430,1140,960,233,290
-"Grimes County, Texas",24066,20774,14468,9388,3292
-"Collin County, Texas",941564,843739,757027,153370,97825
-"Angelina County, Texas",85457,69027,46576,31836,16430
-"Cottle County, Texas",1623,1402,666,956,221
-"Hays County, Texas",202381,174038,151064,41615,28343
-"Lipscomb County, Texas",3424,2773,2284,903,651
-"Matagorda County, Texas",36342,29201,19869,13234,7141
-"Pecos County, Texas",13694,10913,8454,3966,2781
-"Rockwall County, Texas",92892,82446,73615,17178,10446
-"Rusk County, Texas",48744,39359,28715,16142,9385
-"Throckmorton County, Texas",1556,1285,942,586,271
-"Walker County, Texas",56813,49198,42049,14108,7615
-"Wood County, Texas",42880,37006,27043,18512,5874
-"Aransas County, Texas",24388,19385,13508,10606,5003
-"Childress County, Texas",5805,4810,3865,1841,995
-"Coke County, Texas",3177,2765,2109,1208,412
-"Coryell County, Texas",57922,52188,43175,18655,5734
-"Hemphill County, Texas",4018,2938,2354,1076,1080
-"Moore County, Texas",21627,18038,14667,5471,3589
-"Navarro County, Texas",47811,39507,26816,17529,8304
-"San Augustine County, Texas",8094,6848,4467,3804,1246
-"Shackelford County, Texas",3285,2862,2238,1135,423
-"Starr County, Texas",63359,42224,16790,27426,21135
-"Upton County, Texas",3577,3115,2467,933,462
-"Bastrop County, Texas",80461,67320,52501,25824,13141
-"Hall County, Texas",3016,2244,1237,1393,772
-"Franklin County, Texas",10584,8824,6682,3673,1760
-"Frio County, Texas",15733,12265,7552,6172,3468
-"Lampasas County, Texas",20242,17253,13784,7502,2989
-"Mason County, Texas",4150,3306,2579,1584,844
-"Dickens County, Texas",2092,1698,1223,886,394
-"Tarrant County, Texas",2004359,1677121,1306518,521057,327238
-"Anderson County, Texas",44353,38116,27169,16504,6237
-"Jackson County, Texas",14591,12288,9508,4568,2303
-"Milam County, Texas",24164,20935,15076,9389,3229
-"Comanche County, Texas",13292,10885,7999,5122,2407
-"Brooks County, Texas",6638,5185,2656,3129,1453
-"Titus County, Texas",32479,26555,18506,11305,5924
-"Liberty County, Texas",74715,60494,40606,26179,14221
-"Wise County, Texas",63665,52358,41587,18246,11307
-"Jim Wells County, Texas",40799,33303,22127,14047,7496
-"Dimmit County, Texas",10555,8210,3740,4897,2345
-"Fort Bend County, Texas",734071,652304,558076,139849,81767
-"Irion County, Texas",1508,1298,1076,398,210
-"Cooke County, Texas",39107,33276,25615,12832,5831
-"Dawson County, Texas",11190,9464,6020,4642,1726
-"Burleson County, Texas",17692,14742,11094,6344,2950
-"Jefferson County, Texas",241135,191760,134334,80870,49375
-"Oldham County, Texas",1520,1356,1151,434,164
-"El Paso County, Texas",813458,645185,420177,278278,168273
-"Terrell County, Texas",862,729,579,357,133
-"Uvalde County, Texas",26582,20914,13464,10120,5668
-"Archer County, Texas",8723,7727,6429,2718,996
-"Hidalgo County, Texas",841221,584950,308592,315557,256271
-"Somervell County, Texas",8557,7098,5411,2679,1459
-"Haskell County, Texas",5241,4227,2638,2341,1014
-"Mills County, Texas",4735,3755,2953,1818,980
-"Newton County, Texas",13870,11580,8291,5473,2290
-"Kimble County, Texas",4356,3355,2268,1890,1001
-"Van Zandt County, Texas",53721,44481,31896,20363,9240
-"Martin County, Texas",5543,4845,4001,1230,698
-"Yoakum County, Texas",8571,6649,5154,2076,1922
-"Red River County, Texas",12077,10323,7083,5109,1754
-"Sutton County, Texas",3844,3169,2580,1026,675
-"Upshur County, Texas",40221,33423,24738,13276,6798
-"Wharton County, Texas",41197,33706,23557,13888,7491
-"Borden County, Texas",665,634,526,226,31
-"Marion County, Texas",9954,8722,5681,4726,1232
-"Grayson County, Texas",127174,105716,80788,41729,21458
-"Palo Pinto County, Texas",28074,22853,15680,10934,5221
-"DeWitt County, Texas",18492,16089,11832,6600,2403
-"Callahan County, Texas",13684,11151,8738,4562,2533
-"Gregg County, Texas",121339,98319,70968,40044,23020
-"Lubbock County, Texas",297274,257051,201564,85161,40223
-"Kaufman County, Texas",117811,99986,77950,32365,17825
-"Floyd County, Texas",5834,4525,2954,2269,1309
-"Chambers County, Texas",40076,34357,28005,9562,5719
-"Bell County, Texas",321558,283732,225691,101779,37826
-"Hutchinson County, Texas",21464,17752,13267,7558,3712
-"Orange County, Texas",83301,70470,52513,27767,12831
-"Winkler County, Texas",7703,6046,4668,1974,1657
-"Burnet County, Texas",45246,38384,29864,16358,6862
-"Dallas County, Texas",2568003,2027479,1428744,760531,540524
-"McMullen County, Texas",662,581,502,210,81
-"Johnson County, Texas",161010,135010,106074,42973,26000
-"Hartley County, Texas",4220,3508,2599,1265,712
-"Limestone County, Texas",22659,17953,11644,9453,4706
-"Parker County, Texas",128417,110622,90697,34717,17795
-"Culberson County, Texas",2233,1770,1115,820,463
-"Garza County, Texas",4405,3633,2623,1684,772
-"Travis County, Texas",1195755,1033927,869388,254152,161828
-"Collingsworth County, Texas",2929,2266,1320,1222,663
-"Lamb County, Texas",13062,10062,6496,4833,3000
-"Loving County, Texas",102,91,88,25,11
-"Robertson County, Texas",16698,14199,10378,5937,2499
-"Taylor County, Texas",130933,113303,87374,41115,17630
-"Trinity County, Texas",14434,11503,6851,6900,2931
-"Bandera County, Texas",21584,17769,13852,8464,3815
-"Cochran County, Texas",2879,2073,1268,1018,806
-"Comal County, Texas",133918,117455,98182,38832,16463
-"Houston County, Texas",19828,16851,10938,8352,2977
-"Potter County, Texas",114083,89365,61482,37609,24718
-"Scurry County, Texas",15723,13314,10268,4647,2409
-"Stonewall County, Texas",1331,1134,826,558,197
-"Brown County, Texas",36773,31720,23282,13893,5053
-"Bee County, Texas",25061,20059,13592,9245,5002
-"Crane County, Texas",4738,3976,3301,1013,762
-"McCulloch County, Texas",7960,6496,4869,2929,1464
-"Lee County, Texas",16491,14397,11420,5353,2094
-"Ellis County, Texas",167585,142034,115928,42252,25551
-"Kerr County, Texas",50494,42461,31033,22022,8033
-"Falls County, Texas",15531,12901,8635,6361,2630
-"Schoharie County, New York",31286,29976,22230,13339,1310
-"Onondaga County, New York",459222,440428,340165,171533,18794
-"Clinton County, New York",76283,72910,55885,29704,3373
-"Seneca County, New York",31836,28764,22115,12653,3072
-"Putnam County, New York",98561,94015,80266,27059,4546
-"Franklin County, New York",45937,42948,31244,19601,2989
-"Ontario County, New York",108574,104239,82573,39689,4335
-"Queens County, New York",2283272,2042742,1321219,917002,240530
-"Steuben County, New York",95781,90203,63935,41866,5578
-"Hamilton County, New York",4550,4241,2858,2183,309
-"Washington County, New York",58820,55035,39673,25368,3785
-"Chautauqua County, New York",127138,120117,82943,57797,7021
-"Kings County, New York",2588145,2374783,1411519,1166929,213362
-"New York County, New York",1621687,1527908,1115716,551702,93779
-"Tioga County, New York",48665,46526,35084,19244,2139
-"Cayuga County, New York",74300,70255,53816,28855,4045
-"Orleans County, New York",38540,36413,25802,17120,2127
-"Saratoga County, New York",224396,216436,184834,66236,7960
-"Rockland County, New York",321618,302011,208947,131836,19607
-"Columbia County, New York",59273,56514,42462,24148,2759
-"Lewis County, New York",26366,24621,18132,10309,1745
-"Niagara County, New York",209648,202132,152005,84909,7516
-"Westchester County, New York",956399,891687,713132,294884,64712
-"Delaware County, New York",45062,42341,29965,21037,2721
-"Essex County, New York",35351,33978,25513,15376,1373
-"Montgomery County, New York",48655,45441,28856,23881,3214
-"Nassau County, New York",1346651,1282018,1088410,372118,64633
-"Richmond County, New York",469981,446828,336817,157470,23153
-"Schuyler County, New York",17804,16813,11802,7811,991
-"Tompkins County, New York",102106,98366,81353,29214,3740
-"Chenango County, New York",47740,45479,32734,21332,2261
-"Cortland County, New York",47652,45596,36014,16049,2056
-"Jefferson County, New York",102603,96498,70552,40989,6105
-"Oneida County, New York",223217,213820,148972,99834,9397
-"Suffolk County, New York",1474764,1395088,1152258,439865,79676
-"Wyoming County, New York",37721,36145,27655,14615,1576
-"Chemung County, New York",82378,78599,55076,36118,3779
-"Oswego County, New York",118412,112456,77219,51421,5956
-"Otsego County, New York",59581,56178,42364,23845,3403
-"Wayne County, New York",89965,85442,64583,34488,4523
-"Albany County, New York",303585,291580,237579,99940,12005
-"Broome County, New York",191590,183595,132610,81741,7995
-"Erie County, New York",908252,874526,649202,358361,33726
-"Madison County, New York",70843,67467,51670,25921,3376
-"Sullivan County, New York",73075,68586,47405,33113,4489
-"Genesee County, New York",57637,55277,42850,22280,2360
-"Orange County, New York",369400,350053,265785,128838,19347
-"Bronx County, New York",1416810,1279890,633271,789775,136920
-"Fulton County, New York",52990,49650,34085,24417,3340
-"Rensselaer County, New York",157677,150973,119360,55380,6704
-"Herkimer County, New York",61854,58224,39682,28160,3630
-"St. Lawrence County, New York",105917,99649,73039,43408,6268
-"Warren County, New York",63886,60663,46887,25852,3223
-"Dutchess County, New York",285918,271484,217828,93797,14434
-"Monroe County, New York",737093,708983,534706,279305,28110
-"Ulster County, New York",175004,164765,122163,68267,10239
-"Livingston County, New York",61252,59228,47872,21404,2024
-"Greene County, New York",44687,42212,31338,18807,2475
-"Allegany County, New York",46552,43329,31997,19240,3223
-"Cattaraugus County, New York",76884,71522,51614,33186,5362
-"Schenectady County, New York",153101,145775,108669,58674,7326
-"Yates County, New York",24671,20029,14522,9081,4642
-"Lake County, California",63451,57446,30642,37606,6005
-"Mariposa County, California",17370,16526,11650,8584,844
-"Yuba County, California",73339,67493,41668,34119,5846
-"Contra Costa County, California",1128003,1063814,840658,355628,64189
-"Lassen County, California",21376,20160,15112,8672,1216
-"Santa Barbara County, California",436711,390233,278874,161408,46478
-"Sonoma County, California",497067,462681,353511,179416,34386
-"Imperial County, California",170734,154851,78870,88182,15883
-"Mono County, California",14059,11724,9166,4150,2335
-"Alameda County, California",1634128,1550217,1198843,497191,83911
-"Sacramento County, California",1495461,1401166,977056,594627,94295
-"Napa County, California",138703,129688,101997,47481,9015
-"Monterey County, California",416906,370256,237899,171343,46650
-"Sierra County, California",2903,2607,1789,1403,296
-"San Diego County, California",3204470,2924868,2185866,1056014,279602
-"Yolo County, California",213606,201043,153567,68326,12563
-"Humboldt County, California",134810,121755,75848,65631,13055
-"Alpine County, California",1146,1028,551,605,118
-"Mendocino County, California",86575,78510,43387,47743,8065
-"Santa Cruz County, California",272297,255293,191239,95639,17004
-"Los Angeles County, California",10030450,8943793,5804610,3809323,1086657
-"Riverside County, California",2361744,2124439,1373585,957864,237305
-"Santa Clara County, California",1912773,1821047,1466921,513162,91726
-"Marin County, California",255552,245300,202769,82068,10252
-"Siskiyou County, California",43429,40379,23600,23976,3050
-"Shasta County, California",177648,164382,107603,85500,13266
-"Del Norte County, California",24362,22829,13021,13596,1533
-"Glenn County, California",27593,24949,14843,13665,2644
-"Butte County, California",224510,207949,135747,105345,16561
-"Plumas County, California",18544,17897,12977,9297,647
-"San Luis Obispo County, California",274891,254176,199736,95173,20715
-"Kern County, California",854578,777362,444554,401660,77216
-"Orange County, California",3147477,2881804,2116269,1015430,265673
-"Calaveras County, California",44842,42509,29289,22096,2333
-"Sutter County, California",94632,85514,52327,44432,9118
-"San Mateo County, California",762101,725672,597415,211256,36429
-"Tuolumne County, California",50912,47997,33585,24538,2915
-"San Joaquin County, California",723069,669097,426019,311190,53972
-"Amador County, California",34174,32725,23231,17120,1449
-"Merced County, California",266325,243180,128740,137831,23145
-"Modoc County, California",8714,7646,4292,4697,1068
-"Inyo County, California",17681,16556,12290,7352,1125
-"Stanislaus County, California",536175,501163,305445,246690,35012
-"Tehama County, California",62838,58226,34534,33186,4612
-"San Benito County, California",59259,54893,38962,21434,4366
-"El Dorado County, California",185338,175682,139840,67750,9656
-"San Francisco County, California",865827,828067,650986,252110,37760
-"Tulare County, California",456524,411745,202018,244422,44779
-"Nevada County, California",98103,90498,66296,42920,7605
-"Madera County, California",147037,133253,74326,77490,13784
-"Trinity County, California",12691,11256,6521,7002,1435
-"San Bernardino County, California",2084508,1889161,1167704,871208,195347
-"Placer County, California",377358,359456,299854,118707,17902
-"Solano County, California",426327,402631,307314,155354,23696
-"Colusa County, California",21297,19094,11301,10046,2203
-"Kings County, California",133153,122207,74400,59881,10946
-"Fresno County, California",966908,874873,500245,471275,92035
-"Ventura County, California",841489,763015,570372,277881,78474
-"Okaloosa County, Florida",188311,165270,135026,62298,23041
-"Taylor County, Florida",18239,16245,10464,8506,1994
-"Washington County, Florida",21882,19075,12492,10134,2807
-"Duval County, Florida",904689,796445,586484,307637,108244
-"Bradford County, Florida",23454,20552,13537,10327,2902
-"Brevard County, Florida",571935,510341,383031,224697,61594
-"Clay County, Florida",204438,183269,146020,66348,21169
-"Lafayette County, Florida",7204,5938,4027,2782,1266
-"Lake County, Florida",331957,293587,211711,140918,38370
-"Nassau County, Florida",79567,70776,56073,27175,8791
-"Pinellas County, Florida",946661,838204,604010,367925,108457
-"Polk County, Florida",660644,573708,384816,274463,86936
-"St. Lucie County, Florida",303304,260712,176003,129420,42592
-"Glades County, Florida",12147,9731,5312,6322,2416
-"Hendry County, Florida",39475,29143,15522,16671,10332
-"Indian River County, Florida",149716,131642,90249,72942,18074
-"Jackson County, Florida",40870,36236,25368,17510,4634
-"Palm Beach County, Florida",1433604,1238294,906743,527707,195310
-"St. Johns County, Florida",233891,214276,179763,67593,19615
-"Seminole County, Florida",451979,405072,323310,123953,46907
-"Miami-Dade County, Florida",2690040,2202156,1402437,907603,487884
-"Bay County, Florida",177687,152436,112263,67805,25251
-"Flagler County, Florida",106747,93210,67066,46436,13537
-"Franklin County, Florida",10125,8269,5386,4785,1856
-"Hamilton County, Florida",10987,9419,5587,5420,1568
-"Liberty County, Florida",6954,5666,3651,2940,1288
-"Sumter County, Florida",111788,104907,75820,75483,6881
-"Gadsden County, Florida",43046,36612,23028,19410,6434
-"Holmes County, Florida",17620,14284,9074,7864,3336
-"Lee County, Florida",713427,611685,440211,306220,101742
-"Marion County, Florida",339473,297640,189912,170470,41833
-"Collier County, Florida",362009,302275,223351,153160,59734
-"Orange County, Florida",1309805,1119368,836056,381927,190437
-"Pasco County, Florida",504686,444881,307407,208060,59805
-"Highlands County, Florida",100987,88201,52489,58656,12786
-"Suwannee County, Florida",42426,36529,23306,19966,5897
-"DeSoto County, Florida",34677,28284,13204,20053,6393
-"Calhoun County, Florida",12409,10134,5717,5967,2275
-"Columbia County, Florida",64352,56341,36914,28395,8011
-"Dixie County, Florida",14879,12318,6514,8083,2561
-"Putnam County, Florida",71607,60138,34404,37026,11469
-"Union County, Florida",9724,8515,6066,3767,1209
-"Manatee County, Florida",370913,323667,238278,153176,47246
-"Levy County, Florida",39679,33542,19586,20440,6137
-"Baker County, Florida",25164,22021,16486,8508,3143
-"Volusia County, Florida",522429,457315,322840,217308,65114
-"Leon County, Florida",284753,261303,218044,73799,23450
-"Madison County, Florida",16422,14265,8935,7860,2157
-"Escambia County, Florida",296511,266266,204093,107812,30245
-"Hernando County, Florida",180731,157964,102030,87461,22767
-"Hillsborough County, Florida",1367433,1189311,868598,441365,178122
-"Wakulla County, Florida",28299,25765,20413,9410,2534
-"Gulf County, Florida",13627,12072,8651,5900,1555
-"Osceola County, Florida",337036,283792,193313,118520,53244
-"Walton County, Florida",63776,55169,42078,23532,8607
-"Jefferson County, Florida",11791,11039,7873,5330,752
-"Hardee County, Florida",25496,22393,10491,14689,3103
-"Okeechobee County, Florida",37623,30797,17679,18173,6826
-"Gilchrist County, Florida",16285,13340,8762,6620,2945
-"Alachua County, Florida",260562,236620,193648,69927,23942
-"Charlotte County, Florida",173508,153951,107759,93573,19557
-"Martin County, Florida",154467,136704,102576,65038,17763
-"Sarasota County, Florida",408311,361917,274842,187711,46394
-"Citrus County, Florida",140931,126341,81126,80673,14590
-"Santa Rosa County, Florida",161516,145370,117260,52430,16146
-"Broward County, Florida",1897256,1619933,1181016,582981,277323
-"Monroe County, Florida",74327,61114,46856,24755,13213
-"Jersey County, Illinois",21704,20547,16592,6953,1157
-"Putnam County, Illinois",5738,5593,4482,2258,145
-"De Witt County, Illinois",15766,15005,11411,6027,761
-"Fayette County, Illinois",20025,18407,11611,9693,1618
-"Lee County, Illinois",31497,30085,23330,11681,1412
-"Logan County, Illinois",25891,24585,19246,9916,1306
-"Macoupin County, Illinois",45206,43224,31725,18775,1982
-"Richland County, Illinois",15683,14980,10503,7052,703
-"Saline County, Illinois",23768,22566,13575,12871,1202
-"Washington County, Illinois",13951,13452,10769,4666,499
-"Montgomery County, Illinois",25787,24740,18309,11128,1047
-"Whiteside County, Illinois",55523,52805,39020,22250,2718
-"Adams County, Illinois",65175,62125,46656,25786,3050
-"Clinton County, Illinois",35546,33839,27785,11262,1707
-"DeKalb County, Illinois",103533,97465,77360,30740,6068
-"Edwards County, Illinois",6478,6116,4764,2511,362
-"Jasper County, Illinois",9535,8841,6556,3778,694
-"Jefferson County, Illinois",35686,33641,22893,16327,2045
-"Will County, Illinois",681426,643207,535596,174150,38219
-"Williamson County, Illinois",65328,61574,43556,27639,3754
-"Douglas County, Illinois",19555,16724,12419,6901,2831
-"Fulton County, Illinois",32889,30898,22996,14362,1991
-"Greene County, Illinois",12932,12105,7886,6106,827
-"Hardin County, Illinois",3921,3584,2333,1903,337
-"Henry County, Illinois",48734,46576,37565,17909,2158
-"Knox County, Illinois",48258,45551,32108,21683,2707
-"Lake County, Illinois",687874,639566,520751,183758,48308
-"Massac County, Illinois",14192,13554,8408,6999,638
-"Scott County, Illinois",4995,4796,3489,2042,199
-"Cass County, Illinois",12520,11628,8581,4945,892
-"LaSalle County, Illinois",107246,101963,76962,40892,5283
-"Hancock County, Illinois",17931,17395,12327,7778,536
-"Grundy County, Illinois",50217,48112,39456,14358,2105
-"Kankakee County, Illinois",108902,102509,76664,39419,6393
-"DuPage County, Illinois",925916,871642,744352,223407,54274
-"Sangamon County, Illinois",195600,187305,143652,73665,8295
-"Menard County, Illinois",12209,11911,9670,4435,298
-"Cook County, Illinois",5177243,4684990,3333269,1799218,492253
-"Ogle County, Illinois",50831,48055,37695,17707,2776
-"Morgan County, Illinois",32276,30922,23451,12746,1354
-"Stephenson County, Illinois",44692,42245,28693,20418,2447
-"White County, Illinois",13688,12934,8951,6237,754
-"Woodford County, Illinois",38239,36809,31316,11348,1430
-"Henderson County, Illinois",6823,6369,5186,2660,454
-"McHenry County, Illinois",306531,290026,243498,77373,16505
-"McLean County, Illinois",172074,165558,138450,45080,6516
-"Perry County, Illinois",18758,18054,13039,8566,704
-"Pike County, Illinois",15278,14516,10017,6730,762
-"Rock Island County, Illinois",142656,134260,99330,57412,8396
-"St. Clair County, Illinois",257597,240606,173414,99849,16991
-"Wabash County, Illinois",11494,10778,7907,4920,716
-"Calhoun County, Illinois",4777,4640,3261,2112,137
-"Cumberland County, Illinois",10738,10228,7368,4430,510
-"Jo Daviess County, Illinois",21672,20658,16620,8355,1014
-"Kane County, Illinois",527595,481085,376336,156304,46510
-"Lawrence County, Illinois",13825,12744,8391,6260,1081
-"Brown County, Illinois",4804,4521,3452,1744,283
-"Marshall County, Illinois",11526,11095,8670,4541,431
-"Iroquois County, Illinois",27740,26068,18840,11865,1672
-"Christian County, Illinois",31546,30005,22353,12874,1541
-"Clay County, Illinois",13170,12133,8350,6110,1037
-"Gallatin County, Illinois",5157,4973,3189,2857,184
-"Jackson County, Illinois",57971,53700,39523,21664,4271
-"Monroe County, Illinois",33670,32693,28906,8207,977
-"Peoria County, Illinois",182214,171727,127756,69343,10487
-"Union County, Illinois",16974,16004,10565,7825,970
-"Winnebago County, Illinois",283046,264500,184149,120183,18546
-"Piatt County, Illinois",16375,15771,13496,4778,604
-"Pulaski County, Illinois",5606,5413,3028,3202,193
-"Schuyler County, Illinois",6986,6012,4344,2669,974
-"Stark County, Illinois",5398,5042,3917,2051,356
-"Edgar County, Illinois",17253,16298,12155,7213,955
-"Bond County, Illinois",15475,14524,11521,5639,951
-"Boone County, Illinois",53224,49863,39032,17404,3361
-"Bureau County, Illinois",33010,31390,23774,13114,1620
-"Carroll County, Illinois",14376,13498,10356,5939,878
-"Coles County, Illinois",51044,47844,33880,20434,3200
-"Crawford County, Illinois",17011,15939,12095,6868,1072
-"Vermilion County, Illinois",75825,71169,47669,34968,4656
-"Clark County, Illinois",15619,14764,10704,6675,855
-"Effingham County, Illinois",33773,31937,24494,12257,1836
-"Hamilton County, Illinois",8148,7642,5759,3175,506
-"Johnson County, Illinois",10342,9970,7236,4566,372
-"Livingston County, Illinois",34107,32381,24465,13455,1726
-"Tazewell County, Illinois",131396,126519,101544,45820,4877
-"Warren County, Illinois",17143,16566,12026,6997,577
-"Madison County, Illinois",263088,249528,190879,94728,13560
-"Mercer County, Illinois",15465,15095,12135,5599,370
-"Alexander County, Illinois",6469,6030,2784,4141,439
-"Randolph County, Illinois",28672,27105,20101,11952,1567
-"Macon County, Illinois",104085,99018,70876,44843,5067
-"Wayne County, Illinois",16435,15192,10806,7147,1243
-"Franklin County, Illinois",38660,36128,22185,19750,2532
-"McDonough County, Illinois",30498,28948,22384,10397,1550
-"Moultrie County, Illinois",14408,12257,9821,4495,2151
-"Pope County, Illinois",4084,3941,2560,2397,143
-"Shelby County, Illinois",21647,20714,16105,8396,933
-"Champaign County, Illinois",207596,197733,165491,53628,9863
-"Ford County, Illinois",13000,12185,8707,5496,815
-"Kendall County, Illinois",124288,118797,102499,27546,5491
-"Marion County, Illinois",37387,34944,22414,18729,2443
-"Mason County, Illinois",13572,12926,8781,6748,646
+Geographic Area Name,health_ins_noninst_pop,health_ins_noninst_pop_cov_yes,health_ins_noninst_pop_cov_no
+"Austin County, Texas",29298,25749,3549
+"Kenedy County, Texas",595,467,128
+"Nueces County, Texas",355767,295165,60602
+"Colorado County, Texas",20703,17886,2817
+"San Patricio County, Texas",66274,54752,11522
+"Rains County, Texas",11410,9116,2294
+"Randall County, Texas",131586,117531,14055
+"Real County, Texas",3295,2386,909
+"San Saba County, Texas",5290,4286,1004
+"Schleicher County, Texas",3061,2414,647
+"Sterling County, Texas",1103,880,223
+"Zavala County, Texas",11935,9741,2194
+"Calhoun County, Texas",21584,17492,4092
+"Carson County, Texas",6003,5319,684
+"Foard County, Texas",1373,1191,182
+"Freestone County, Texas",18047,15220,2827
+"Goliad County, Texas",7428,6634,794
+"Hamilton County, Texas",8044,6639,1405
+"Hardeman County, Texas",3940,3318,622
+"Mitchell County, Texas",6308,5421,887
+"Briscoe County, Texas",1546,1208,338
+"Lavaca County, Texas",19506,17325,2181
+"Terry County, Texas",11528,8940,2588
+"Jeff Davis County, Texas",2172,1877,295
+"Jim Hogg County, Texas",5253,4265,988
+"Montgomery County, Texas",551489,472786,78703
+"Dallam County, Texas",7204,5408,1796
+"Webb County, Texas",269779,193922,75857
+"Armstrong County, Texas",1853,1712,141
+"Castro County, Texas",7696,5687,2009
+"Kleberg County, Texas",30628,25323,5305
+"Willacy County, Texas",20254,14556,5698
+"Crosby County, Texas",5780,4602,1178
+"Fisher County, Texas",3860,3267,593
+"Duval County, Texas",10856,8200,2656
+"Blanco County, Texas",11176,9163,2013
+"Jasper County, Texas",34587,28798,5789
+"Kinney County, Texas",3419,2919,500
+"Deaf Smith County, Texas",18691,14880,3811
+"Galveston County, Texas",321952,276296,45656
+"La Salle County, Texas",6471,4846,1625
+"Roberts County, Texas",885,812,73
+"Tyler County, Texas",18777,15959,2818
+"Wheeler County, Texas",5413,4348,1065
+"Bowie County, Texas",88388,75530,12858
+"Brewster County, Texas",9131,7595,1536
+"Kent County, Texas",707,668,39
+"Smith County, Texas",222704,184420,38284
+"Crockett County, Texas",3559,3018,541
+"Hardin County, Texas",55918,47649,8269
+"Howard County, Texas",31813,26274,5539
+"Leon County, Texas",17003,13948,3055
+"Montague County, Texas",19113,15386,3727
+"Panola County, Texas",23205,19160,4045
+"Erath County, Texas",40979,33689,7290
+"Brazoria County, Texas",342641,296664,45977
+"Motley County, Texas",1156,920,236
+"Donley County, Texas",3322,2812,510
+"Atascosa County, Texas",48397,40732,7665
+"Coleman County, Texas",8358,6437,1921
+"Nolan County, Texas",14785,12234,2551
+"Hudspeth County, Texas",3377,2586,791
+"Medina County, Texas",46905,40650,6255
+"Ward County, Texas",11477,9448,2029
+"Henderson County, Texas",79500,64594,14906
+"Harrison County, Texas",65875,56065,9810
+"Menard County, Texas",2074,1422,652
+"Lamar County, Texas",48942,40530,8412
+"Fayette County, Texas",24647,21995,2652
+"Williamson County, Texas",523527,474565,48962
+"Polk County, Texas",44229,36096,8133
+"Refugio County, Texas",7070,5948,1122
+"Caldwell County, Texas",39420,31017,8403
+"Wilbarger County, Texas",12720,10907,1813
+"Reagan County, Texas",3716,2800,916
+"Hale County, Texas",32366,26187,6179
+"Shelby County, Texas",25304,19118,6186
+"Runnels County, Texas",10093,8515,1578
+"San Jacinto County, Texas",27678,22254,5424
+"Tom Green County, Texas",112652,95645,17007
+"Victoria County, Texas",90951,76546,14405
+"Waller County, Texas",49757,39814,9943
+"Wichita County, Texas",116887,100745,16142
+"Wilson County, Texas",47533,40715,6818
+"Hockley County, Texas",22950,18719,4231
+"Maverick County, Texas",57698,40321,17377
+"Midland County, Texas",162946,134490,28456
+"Live Oak County, Texas",10652,8609,2043
+"Llano County, Texas",20429,17006,3423
+"Fannin County, Texas",31300,26291,5009
+"Karnes County, Texas",12806,11029,1777
+"Brazos County, Texas",214943,186806,28137
+"Cass County, Texas",29691,25112,4579
+"Gaines County, Texas",20212,13803,6409
+"Gray County, Texas",21117,17296,3821
+"Madison County, Texas",10531,9029,1502
+"Jack County, Texas",7684,6346,1338
+"Kendall County, Texas",41551,37727,3824
+"Bosque County, Texas",17776,14594,3182
+"Bexar County, Texas",1895810,1608911,286899
+"Bailey County, Texas",6895,5474,1421
+"Baylor County, Texas",3517,3058,459
+"Cameron County, Texas",419590,299693,119897
+"Denton County, Texas",803126,710804,92322
+"Washington County, Texas",34144,30186,3958
+"Morris County, Texas",12272,10490,1782
+"Stephens County, Texas",8895,7038,1857
+"Harris County, Texas",4581010,3657243,923767
+"Andrews County, Texas",17725,14496,3229
+"Gillespie County, Texas",25851,20998,4853
+"Gonzales County, Texas",20384,16323,4061
+"Lynn County, Texas",5766,4755,1011
+"Young County, Texas",17825,14512,3313
+"Zapata County, Texas",14334,10128,4206
+"Hood County, Texas",56208,47617,8591
+"Hopkins County, Texas",35802,29202,6600
+"Ochiltree County, Texas",10285,8140,2145
+"King County, Texas",228,210,18
+"Knox County, Texas",3590,3022,568
+"McLennan County, Texas",244239,207404,36835
+"Cherokee County, Texas",49308,40034,9274
+"Concho County, Texas",3068,2544,524
+"Delta County, Texas",5149,4367,782
+"Edwards County, Texas",2043,1792,251
+"Eastland County, Texas",18007,15083,2924
+"Jones County, Texas",12690,10923,1767
+"Reeves County, Texas",12925,10281,2644
+"Sabine County, Texas",10370,8855,1515
+"Sherman County, Texas",3026,2430,596
+"Swisher County, Texas",6830,5540,1290
+"Hunt County, Texas",91346,75795,15551
+"Camp County, Texas",12760,10639,2121
+"Hansford County, Texas",5463,4386,1077
+"Guadalupe County, Texas",152940,135375,17565
+"Clay County, Texas",10321,8885,1436
+"Hill County, Texas",34754,29129,5625
+"Nacogdoches County, Texas",64791,52520,12271
+"Parmer County, Texas",9772,7773,1999
+"Presidio County, Texas",7123,4988,2135
+"Val Verde County, Texas",46335,37714,8621
+"Ector County, Texas",157175,123453,33722
+"Glasscock County, Texas",1430,1140,290
+"Grimes County, Texas",24066,20774,3292
+"Collin County, Texas",941564,843739,97825
+"Angelina County, Texas",85457,69027,16430
+"Cottle County, Texas",1623,1402,221
+"Hays County, Texas",202381,174038,28343
+"Lipscomb County, Texas",3424,2773,651
+"Matagorda County, Texas",36342,29201,7141
+"Pecos County, Texas",13694,10913,2781
+"Rockwall County, Texas",92892,82446,10446
+"Rusk County, Texas",48744,39359,9385
+"Throckmorton County, Texas",1556,1285,271
+"Walker County, Texas",56813,49198,7615
+"Wood County, Texas",42880,37006,5874
+"Aransas County, Texas",24388,19385,5003
+"Childress County, Texas",5805,4810,995
+"Coke County, Texas",3177,2765,412
+"Coryell County, Texas",57922,52188,5734
+"Hemphill County, Texas",4018,2938,1080
+"Moore County, Texas",21627,18038,3589
+"Navarro County, Texas",47811,39507,8304
+"San Augustine County, Texas",8094,6848,1246
+"Shackelford County, Texas",3285,2862,423
+"Starr County, Texas",63359,42224,21135
+"Upton County, Texas",3577,3115,462
+"Bastrop County, Texas",80461,67320,13141
+"Hall County, Texas",3016,2244,772
+"Franklin County, Texas",10584,8824,1760
+"Frio County, Texas",15733,12265,3468
+"Lampasas County, Texas",20242,17253,2989
+"Mason County, Texas",4150,3306,844
+"Dickens County, Texas",2092,1698,394
+"Tarrant County, Texas",2004359,1677121,327238
+"Anderson County, Texas",44353,38116,6237
+"Jackson County, Texas",14591,12288,2303
+"Milam County, Texas",24164,20935,3229
+"Comanche County, Texas",13292,10885,2407
+"Brooks County, Texas",6638,5185,1453
+"Titus County, Texas",32479,26555,5924
+"Liberty County, Texas",74715,60494,14221
+"Wise County, Texas",63665,52358,11307
+"Jim Wells County, Texas",40799,33303,7496
+"Dimmit County, Texas",10555,8210,2345
+"Fort Bend County, Texas",734071,652304,81767
+"Irion County, Texas",1508,1298,210
+"Cooke County, Texas",39107,33276,5831
+"Dawson County, Texas",11190,9464,1726
+"Burleson County, Texas",17692,14742,2950
+"Jefferson County, Texas",241135,191760,49375
+"Oldham County, Texas",1520,1356,164
+"El Paso County, Texas",813458,645185,168273
+"Terrell County, Texas",862,729,133
+"Uvalde County, Texas",26582,20914,5668
+"Archer County, Texas",8723,7727,996
+"Hidalgo County, Texas",841221,584950,256271
+"Somervell County, Texas",8557,7098,1459
+"Haskell County, Texas",5241,4227,1014
+"Mills County, Texas",4735,3755,980
+"Newton County, Texas",13870,11580,2290
+"Kimble County, Texas",4356,3355,1001
+"Van Zandt County, Texas",53721,44481,9240
+"Martin County, Texas",5543,4845,698
+"Yoakum County, Texas",8571,6649,1922
+"Red River County, Texas",12077,10323,1754
+"Sutton County, Texas",3844,3169,675
+"Upshur County, Texas",40221,33423,6798
+"Wharton County, Texas",41197,33706,7491
+"Borden County, Texas",665,634,31
+"Marion County, Texas",9954,8722,1232
+"Grayson County, Texas",127174,105716,21458
+"Palo Pinto County, Texas",28074,22853,5221
+"DeWitt County, Texas",18492,16089,2403
+"Callahan County, Texas",13684,11151,2533
+"Gregg County, Texas",121339,98319,23020
+"Lubbock County, Texas",297274,257051,40223
+"Kaufman County, Texas",117811,99986,17825
+"Floyd County, Texas",5834,4525,1309
+"Chambers County, Texas",40076,34357,5719
+"Bell County, Texas",321558,283732,37826
+"Hutchinson County, Texas",21464,17752,3712
+"Orange County, Texas",83301,70470,12831
+"Winkler County, Texas",7703,6046,1657
+"Burnet County, Texas",45246,38384,6862
+"Dallas County, Texas",2568003,2027479,540524
+"McMullen County, Texas",662,581,81
+"Johnson County, Texas",161010,135010,26000
+"Hartley County, Texas",4220,3508,712
+"Limestone County, Texas",22659,17953,4706
+"Parker County, Texas",128417,110622,17795
+"Culberson County, Texas",2233,1770,463
+"Garza County, Texas",4405,3633,772
+"Travis County, Texas",1195755,1033927,161828
+"Collingsworth County, Texas",2929,2266,663
+"Lamb County, Texas",13062,10062,3000
+"Loving County, Texas",102,91,11
+"Robertson County, Texas",16698,14199,2499
+"Taylor County, Texas",130933,113303,17630
+"Trinity County, Texas",14434,11503,2931
+"Bandera County, Texas",21584,17769,3815
+"Cochran County, Texas",2879,2073,806
+"Comal County, Texas",133918,117455,16463
+"Houston County, Texas",19828,16851,2977
+"Potter County, Texas",114083,89365,24718
+"Scurry County, Texas",15723,13314,2409
+"Stonewall County, Texas",1331,1134,197
+"Brown County, Texas",36773,31720,5053
+"Bee County, Texas",25061,20059,5002
+"Crane County, Texas",4738,3976,762
+"McCulloch County, Texas",7960,6496,1464
+"Lee County, Texas",16491,14397,2094
+"Ellis County, Texas",167585,142034,25551
+"Kerr County, Texas",50494,42461,8033
+"Falls County, Texas",15531,12901,2630
+"Schoharie County, New York",31286,29976,1310
+"Onondaga County, New York",459222,440428,18794
+"Clinton County, New York",76283,72910,3373
+"Seneca County, New York",31836,28764,3072
+"Putnam County, New York",98561,94015,4546
+"Franklin County, New York",45937,42948,2989
+"Ontario County, New York",108574,104239,4335
+"Queens County, New York",2283272,2042742,240530
+"Steuben County, New York",95781,90203,5578
+"Hamilton County, New York",4550,4241,309
+"Washington County, New York",58820,55035,3785
+"Chautauqua County, New York",127138,120117,7021
+"Kings County, New York",2588145,2374783,213362
+"New York County, New York",1621687,1527908,93779
+"Tioga County, New York",48665,46526,2139
+"Cayuga County, New York",74300,70255,4045
+"Orleans County, New York",38540,36413,2127
+"Saratoga County, New York",224396,216436,7960
+"Rockland County, New York",321618,302011,19607
+"Columbia County, New York",59273,56514,2759
+"Lewis County, New York",26366,24621,1745
+"Niagara County, New York",209648,202132,7516
+"Westchester County, New York",956399,891687,64712
+"Delaware County, New York",45062,42341,2721
+"Essex County, New York",35351,33978,1373
+"Montgomery County, New York",48655,45441,3214
+"Nassau County, New York",1346651,1282018,64633
+"Richmond County, New York",469981,446828,23153
+"Schuyler County, New York",17804,16813,991
+"Tompkins County, New York",102106,98366,3740
+"Chenango County, New York",47740,45479,2261
+"Cortland County, New York",47652,45596,2056
+"Jefferson County, New York",102603,96498,6105
+"Oneida County, New York",223217,213820,9397
+"Suffolk County, New York",1474764,1395088,79676
+"Wyoming County, New York",37721,36145,1576
+"Chemung County, New York",82378,78599,3779
+"Oswego County, New York",118412,112456,5956
+"Otsego County, New York",59581,56178,3403
+"Wayne County, New York",89965,85442,4523
+"Albany County, New York",303585,291580,12005
+"Broome County, New York",191590,183595,7995
+"Erie County, New York",908252,874526,33726
+"Madison County, New York",70843,67467,3376
+"Sullivan County, New York",73075,68586,4489
+"Genesee County, New York",57637,55277,2360
+"Orange County, New York",369400,350053,19347
+"Bronx County, New York",1416810,1279890,136920
+"Fulton County, New York",52990,49650,3340
+"Rensselaer County, New York",157677,150973,6704
+"Herkimer County, New York",61854,58224,3630
+"St. Lawrence County, New York",105917,99649,6268
+"Warren County, New York",63886,60663,3223
+"Dutchess County, New York",285918,271484,14434
+"Monroe County, New York",737093,708983,28110
+"Ulster County, New York",175004,164765,10239
+"Livingston County, New York",61252,59228,2024
+"Greene County, New York",44687,42212,2475
+"Allegany County, New York",46552,43329,3223
+"Cattaraugus County, New York",76884,71522,5362
+"Schenectady County, New York",153101,145775,7326
+"Yates County, New York",24671,20029,4642
+"Lake County, California",63451,57446,6005
+"Mariposa County, California",17370,16526,844
+"Yuba County, California",73339,67493,5846
+"Contra Costa County, California",1128003,1063814,64189
+"Lassen County, California",21376,20160,1216
+"Santa Barbara County, California",436711,390233,46478
+"Sonoma County, California",497067,462681,34386
+"Imperial County, California",170734,154851,15883
+"Mono County, California",14059,11724,2335
+"Alameda County, California",1634128,1550217,83911
+"Sacramento County, California",1495461,1401166,94295
+"Napa County, California",138703,129688,9015
+"Monterey County, California",416906,370256,46650
+"Sierra County, California",2903,2607,296
+"San Diego County, California",3204470,2924868,279602
+"Yolo County, California",213606,201043,12563
+"Humboldt County, California",134810,121755,13055
+"Alpine County, California",1146,1028,118
+"Mendocino County, California",86575,78510,8065
+"Santa Cruz County, California",272297,255293,17004
+"Los Angeles County, California",10030450,8943793,1086657
+"Riverside County, California",2361744,2124439,237305
+"Santa Clara County, California",1912773,1821047,91726
+"Marin County, California",255552,245300,10252
+"Siskiyou County, California",43429,40379,3050
+"Shasta County, California",177648,164382,13266
+"Del Norte County, California",24362,22829,1533
+"Glenn County, California",27593,24949,2644
+"Butte County, California",224510,207949,16561
+"Plumas County, California",18544,17897,647
+"San Luis Obispo County, California",274891,254176,20715
+"Kern County, California",854578,777362,77216
+"Orange County, California",3147477,2881804,265673
+"Calaveras County, California",44842,42509,2333
+"Sutter County, California",94632,85514,9118
+"San Mateo County, California",762101,725672,36429
+"Tuolumne County, California",50912,47997,2915
+"San Joaquin County, California",723069,669097,53972
+"Amador County, California",34174,32725,1449
+"Merced County, California",266325,243180,23145
+"Modoc County, California",8714,7646,1068
+"Inyo County, California",17681,16556,1125
+"Stanislaus County, California",536175,501163,35012
+"Tehama County, California",62838,58226,4612
+"San Benito County, California",59259,54893,4366
+"El Dorado County, California",185338,175682,9656
+"San Francisco County, California",865827,828067,37760
+"Tulare County, California",456524,411745,44779
+"Nevada County, California",98103,90498,7605
+"Madera County, California",147037,133253,13784
+"Trinity County, California",12691,11256,1435
+"San Bernardino County, California",2084508,1889161,195347
+"Placer County, California",377358,359456,17902
+"Solano County, California",426327,402631,23696
+"Colusa County, California",21297,19094,2203
+"Kings County, California",133153,122207,10946
+"Fresno County, California",966908,874873,92035
+"Ventura County, California",841489,763015,78474
+"Okaloosa County, Florida",188311,165270,23041
+"Taylor County, Florida",18239,16245,1994
+"Washington County, Florida",21882,19075,2807
+"Duval County, Florida",904689,796445,108244
+"Bradford County, Florida",23454,20552,2902
+"Brevard County, Florida",571935,510341,61594
+"Clay County, Florida",204438,183269,21169
+"Lafayette County, Florida",7204,5938,1266
+"Lake County, Florida",331957,293587,38370
+"Nassau County, Florida",79567,70776,8791
+"Pinellas County, Florida",946661,838204,108457
+"Polk County, Florida",660644,573708,86936
+"St. Lucie County, Florida",303304,260712,42592
+"Glades County, Florida",12147,9731,2416
+"Hendry County, Florida",39475,29143,10332
+"Indian River County, Florida",149716,131642,18074
+"Jackson County, Florida",40870,36236,4634
+"Palm Beach County, Florida",1433604,1238294,195310
+"St. Johns County, Florida",233891,214276,19615
+"Seminole County, Florida",451979,405072,46907
+"Miami-Dade County, Florida",2690040,2202156,487884
+"Bay County, Florida",177687,152436,25251
+"Flagler County, Florida",106747,93210,13537
+"Franklin County, Florida",10125,8269,1856
+"Hamilton County, Florida",10987,9419,1568
+"Liberty County, Florida",6954,5666,1288
+"Sumter County, Florida",111788,104907,6881
+"Gadsden County, Florida",43046,36612,6434
+"Holmes County, Florida",17620,14284,3336
+"Lee County, Florida",713427,611685,101742
+"Marion County, Florida",339473,297640,41833
+"Collier County, Florida",362009,302275,59734
+"Orange County, Florida",1309805,1119368,190437
+"Pasco County, Florida",504686,444881,59805
+"Highlands County, Florida",100987,88201,12786
+"Suwannee County, Florida",42426,36529,5897
+"DeSoto County, Florida",34677,28284,6393
+"Calhoun County, Florida",12409,10134,2275
+"Columbia County, Florida",64352,56341,8011
+"Dixie County, Florida",14879,12318,2561
+"Putnam County, Florida",71607,60138,11469
+"Union County, Florida",9724,8515,1209
+"Manatee County, Florida",370913,323667,47246
+"Levy County, Florida",39679,33542,6137
+"Baker County, Florida",25164,22021,3143
+"Volusia County, Florida",522429,457315,65114
+"Leon County, Florida",284753,261303,23450
+"Madison County, Florida",16422,14265,2157
+"Escambia County, Florida",296511,266266,30245
+"Hernando County, Florida",180731,157964,22767
+"Hillsborough County, Florida",1367433,1189311,178122
+"Wakulla County, Florida",28299,25765,2534
+"Gulf County, Florida",13627,12072,1555
+"Osceola County, Florida",337036,283792,53244
+"Walton County, Florida",63776,55169,8607
+"Jefferson County, Florida",11791,11039,752
+"Hardee County, Florida",25496,22393,3103
+"Okeechobee County, Florida",37623,30797,6826
+"Gilchrist County, Florida",16285,13340,2945
+"Alachua County, Florida",260562,236620,23942
+"Charlotte County, Florida",173508,153951,19557
+"Martin County, Florida",154467,136704,17763
+"Sarasota County, Florida",408311,361917,46394
+"Citrus County, Florida",140931,126341,14590
+"Santa Rosa County, Florida",161516,145370,16146
+"Broward County, Florida",1897256,1619933,277323
+"Monroe County, Florida",74327,61114,13213
+"Jersey County, Illinois",21704,20547,1157
+"Putnam County, Illinois",5738,5593,145
+"De Witt County, Illinois",15766,15005,761
+"Fayette County, Illinois",20025,18407,1618
+"Lee County, Illinois",31497,30085,1412
+"Logan County, Illinois",25891,24585,1306
+"Macoupin County, Illinois",45206,43224,1982
+"Richland County, Illinois",15683,14980,703
+"Saline County, Illinois",23768,22566,1202
+"Washington County, Illinois",13951,13452,499
+"Montgomery County, Illinois",25787,24740,1047
+"Whiteside County, Illinois",55523,52805,2718
+"Adams County, Illinois",65175,62125,3050
+"Clinton County, Illinois",35546,33839,1707
+"DeKalb County, Illinois",103533,97465,6068
+"Edwards County, Illinois",6478,6116,362
+"Jasper County, Illinois",9535,8841,694
+"Jefferson County, Illinois",35686,33641,2045
+"Will County, Illinois",681426,643207,38219
+"Williamson County, Illinois",65328,61574,3754
+"Douglas County, Illinois",19555,16724,2831
+"Fulton County, Illinois",32889,30898,1991
+"Greene County, Illinois",12932,12105,827
+"Hardin County, Illinois",3921,3584,337
+"Henry County, Illinois",48734,46576,2158
+"Knox County, Illinois",48258,45551,2707
+"Lake County, Illinois",687874,639566,48308
+"Massac County, Illinois",14192,13554,638
+"Scott County, Illinois",4995,4796,199
+"Cass County, Illinois",12520,11628,892
+"LaSalle County, Illinois",107246,101963,5283
+"Hancock County, Illinois",17931,17395,536
+"Grundy County, Illinois",50217,48112,2105
+"Kankakee County, Illinois",108902,102509,6393
+"DuPage County, Illinois",925916,871642,54274
+"Sangamon County, Illinois",195600,187305,8295
+"Menard County, Illinois",12209,11911,298
+"Cook County, Illinois",5177243,4684990,492253
+"Ogle County, Illinois",50831,48055,2776
+"Morgan County, Illinois",32276,30922,1354
+"Stephenson County, Illinois",44692,42245,2447
+"White County, Illinois",13688,12934,754
+"Woodford County, Illinois",38239,36809,1430
+"Henderson County, Illinois",6823,6369,454
+"McHenry County, Illinois",306531,290026,16505
+"McLean County, Illinois",172074,165558,6516
+"Perry County, Illinois",18758,18054,704
+"Pike County, Illinois",15278,14516,762
+"Rock Island County, Illinois",142656,134260,8396
+"St. Clair County, Illinois",257597,240606,16991
+"Wabash County, Illinois",11494,10778,716
+"Calhoun County, Illinois",4777,4640,137
+"Cumberland County, Illinois",10738,10228,510
+"Jo Daviess County, Illinois",21672,20658,1014
+"Kane County, Illinois",527595,481085,46510
+"Lawrence County, Illinois",13825,12744,1081
+"Brown County, Illinois",4804,4521,283
+"Marshall County, Illinois",11526,11095,431
+"Iroquois County, Illinois",27740,26068,1672
+"Christian County, Illinois",31546,30005,1541
+"Clay County, Illinois",13170,12133,1037
+"Gallatin County, Illinois",5157,4973,184
+"Jackson County, Illinois",57971,53700,4271
+"Monroe County, Illinois",33670,32693,977
+"Peoria County, Illinois",182214,171727,10487
+"Union County, Illinois",16974,16004,970
+"Winnebago County, Illinois",283046,264500,18546
+"Piatt County, Illinois",16375,15771,604
+"Pulaski County, Illinois",5606,5413,193
+"Schuyler County, Illinois",6986,6012,974
+"Stark County, Illinois",5398,5042,356
+"Edgar County, Illinois",17253,16298,955
+"Bond County, Illinois",15475,14524,951
+"Boone County, Illinois",53224,49863,3361
+"Bureau County, Illinois",33010,31390,1620
+"Carroll County, Illinois",14376,13498,878
+"Coles County, Illinois",51044,47844,3200
+"Crawford County, Illinois",17011,15939,1072
+"Vermilion County, Illinois",75825,71169,4656
+"Clark County, Illinois",15619,14764,855
+"Effingham County, Illinois",33773,31937,1836
+"Hamilton County, Illinois",8148,7642,506
+"Johnson County, Illinois",10342,9970,372
+"Livingston County, Illinois",34107,32381,1726
+"Tazewell County, Illinois",131396,126519,4877
+"Warren County, Illinois",17143,16566,577
+"Madison County, Illinois",263088,249528,13560
+"Mercer County, Illinois",15465,15095,370
+"Alexander County, Illinois",6469,6030,439
+"Randolph County, Illinois",28672,27105,1567
+"Macon County, Illinois",104085,99018,5067
+"Wayne County, Illinois",16435,15192,1243
+"Franklin County, Illinois",38660,36128,2532
+"McDonough County, Illinois",30498,28948,1550
+"Moultrie County, Illinois",14408,12257,2151
+"Pope County, Illinois",4084,3941,143
+"Shelby County, Illinois",21647,20714,933
+"Champaign County, Illinois",207596,197733,9863
+"Ford County, Illinois",13000,12185,815
+"Kendall County, Illinois",124288,118797,5491
+"Marion County, Illinois",37387,34944,2443
+"Mason County, Illinois",13572,12926,646
