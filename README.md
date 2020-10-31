@@ -1,4 +1,4 @@
-<img src="../img/intro.png">
+<img src="/img/intro.png">
 
 ---
 # Table of Contents
@@ -37,14 +37,10 @@ Data is modeled across five states and for each state individually. Conclusions 
 - [New York data modeling](../code/07_modeling_ny.ipynb)
 - [Texas data modeling](../code/07_modeling_tx.ipynb)
 
-
 We weren't able to achieve high accuracy when we used all five states data for modeling, however, the models performed significantly better in some cases when we used state-level data for our of our models.
-
->*See the [table](#Table-comparing-all-models) below comparing all models.*
 
 This variation in models' predictive accuracy between all 5 states and state level data can be explained by data variation from one state to another, which eventually led to disparities between state-level models in terms of predictive features importance. For instance, population density and income per capita were the two most important features in our model using data from all five states, but other features like race percentage, age groups percentage, and having health insurance were more important in models using state-level data.
 
-### Table comparing all models
 | Region             | Best Regression R2 | Best Classification Accuracy | Classification Baseline |
 |--------------------|--------------------|------------------------------|-------------------------|
 | CA, FL, IL, NY, TX | 47%                | 63%                          | 42%                     |
