@@ -69,7 +69,7 @@ You can select any of the five states in the home page for a county-level visual
 
 <img src="/img/homepage.png" width="500">
 
->Let's use Texas as an example. You can see that different counties are highlighted with three different shades of red that goes from light to dark as COVID severity increases. 
+>In the image below, Texas counties are highlighted with three different shades of red that range from light to dark as COVID severity increases. 
 
 <img src="/img/tx.png" width="500">
 
