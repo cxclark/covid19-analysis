@@ -30,12 +30,12 @@ Data is modeled across five states and for each state individually. Conclusions 
 # Models Summary
 
 #### Modeling Notebooks
-- [Modeling all five States](../code/06_modeling_five_states.ipynb)
-- [California data modeling](../code/07_modeling_ca.ipynb)
-- [Florida data modeling](../code/07_modeling_fl.ipynb)
-- [Illinois data modeling](../code/07_modeling_il.ipynb)
-- [New York data modeling](../code/07_modeling_ny.ipynb)
-- [Texas data modeling](../code/07_modeling_tx.ipynb)
+- [Modeling all five States](/code/06_modeling_five_states.ipynb)
+- [California data modeling](/code/07_modeling_ca.ipynb)
+- [Florida data modeling](/code/07_modeling_fl.ipynb)
+- [Illinois data modeling](/code/07_modeling_il.ipynb)
+- [New York data modeling](/code/07_modeling_ny.ipynb)
+- [Texas data modeling](/code/07_modeling_tx.ipynb)
 
 We weren't able to achieve high accuracy when we used all five states data for modeling, however, the models performed significantly better in some cases when we used state-level data for our of our models.
 
@@ -67,19 +67,19 @@ We utilized [Folium](https://python-visualization.github.io/folium/) and [Flask]
 
 You can select any of the five states in the home page for a county-level visualization of COVID severity.
 
-<img src="../img/homepage.png" width="500">
+<img src="/img/homepage.png" width="500">
 
 >In the image below, Texas counties are highlighted with three different shades of red that range from light to dark as COVID severity increases. 
 
-<img src="../img/tx.png" width="500">
+<img src="/img/tx.png" width="500">
 
 >When hovering overa county within the app, a window appears with a detailed breakdown of county-level demographic factors that contribute to COVID severity score.
 
-<img src="../img/txhover.png" width="500">
+<img src="/img/txhover.png" width="500">
 
 >Finally, we included a predictive model that you can use to predict COVID severity for other counties in the United States.
 
-<img src="../img/demo.png" width="425">
+<img src="/img/demo.png" width="425">
 
 *In order to use our interactive demo, please download the github repo and run `app2.py` file in the [Flask](../Flask) folder.*
 
