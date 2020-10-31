@@ -1,6 +1,126 @@
-# COVID-19 Analysis
+<img src="../img/intro.png">
+
+---
+# Table of Contents
+- [Problem Statement](#Problem-Statement)
+- [Executive Summary](#Executive-Summary)
+- [Models Summary](#Models-Summary)
+- [Key Challenges](#Key-Challenges)
+- [Interactive Demo](#Interactive-Demo)
+- [Conclusions](#Conclusions)
+- [Future Work](#Future-Work)
+- [References and Data Sources](#References-and-Data-Sources)
+- [Data Dictionary](#Data-Dictionary)
+
+# Problem Statement
+Is it possible to predict COVID-19 severity using demographic data?
+
+Studies have indicated that COVID-19 affects parts of the population more severely, such as older individuals and males <sup>[1,2]</sup>. At the same time, the World Health Organization has stated that lockdowns and other restrictive measures meant to stop the spread of the virus "can have a profound negative impact on individuals, communities, and societies by bringing social and economic life to a near stop." <sup>[3]</sup>
+
+Though COVID-19 research is ongoing, an analysis of COVID mortality and/or case rates in combination with demographic data might provide insights into communities more or less at risk.  These insights might enable more targeted measures commensurate with a specific community's risk, thus improving the welfare of all involved.
+
+# Executive Summary
+
+This analysis examines county-level COVID-19 testing, case, and death data alongside county-level demographic data for five US states. Demographic data such as age, gender, race, and income per capita is collected using the U.S. Census Bureau's API. COVID-19 and other health data is gathered from the CDC and state-specific health departments.
+
+The data is cleaned, pre-processed, and normalized for population. Features for modeling are evaluated and selected. Regression models are built to predict cases/100 people. Classification models are built to predict a class of COVID severity based on cases/100 people.
+
+Data is modeled across five states and for each state individually. Conclusions are drawn. Possible next steps for further modeling are discussed.
+
+# Models Summary
+
+#### Modeling Notebooks
+- [Modeling all five States](../code/06_modeling_five_states.ipynb)
+- [California data modeling](../code/07_modeling_ca.ipynb)
+- [Florida data modeling](../code/07_modeling_fl.ipynb)
+- [Illinois data modeling](../code/07_modeling_il.ipynb)
+- [New York data modeling](../code/07_modeling_ny.ipynb)
+- [Texas data modeling](../code/07_modeling_tx.ipynb)
 
 
+We weren't able to achieve high accuracy when we used all five states data for modeling, however, the models performed significantly better in some cases when we used state-level data for our of our models.
+
+>*See the [table](#Table-comparing-all-models) below comparing all models.*
+
+This variation in models' predictive accuracy between all 5 states and state level data can be explained by data variation from one state to another, which eventually led to disparities between state-level models in terms of predictive features importance. For instance, population density and income per capita were the two most important features in our model using data from all five states, but other features like race percentage, age groups percentage, and having health insurance were more important in models using state-level data.
+
+### Table comparing all models
+| Region             | Best Regression R2 | Best Classification Accuracy | Classification Baseline |
+|--------------------|--------------------|------------------------------|-------------------------|
+| CA, FL, IL, NY, TX | 47%                | 63%                          | 42%                     |
+| California         | 75%                | 93%                          | 66%                     |
+| Florida            | 76%                | 71%                          | 71%                     |
+| Illinois           | 32%                | 73%                          | 54%                     |
+| New York           | 81%                | 94%                          | 81%                     |
+| Texas              | 49%                | 59%                          | 40%                     |
+
+# Key Challenges
+
+- **COVID is an ongoing event.**
+With more data being collected everyday, we are improving our understanding on how different states and counties are affected by COVID. We will try to improve our models' performance in the future as more data becomes available.
+
+- **Widley varying state-level data.**
+As we mentioned earlier, we noticed that data varies widely on state-level, which explaines why our state-level models performed better than our models using all 5 states data for the most part.
+
+- **More features are needed.**
+There are other factors which we didn't investigate in our models that might also be important to predict COVID severity, such as county mask wearing policies and the percentage of people wearing masks in each counties. 
+
+# Interactive Demo
+
+We utilized [Folium](https://python-visualization.github.io/folium/) and [Flask](https://flask.palletsprojects.com/en/1.1.x/) to build an interactive demo app.
+
+You can select any of the five states in the home page for a county-level visualization of COVID severity.
+
+<img src="../img/homepage.png" width="500">
+
+>Let's use Texas as an example. You can see that different counties are highlighted with three different shades of red that goes from light to dark as COVID severity increases. 
+
+<img src="../img/tx.png" width="500">
+
+>You can hover over any county to get a more detailed breakdown of county-level factors that contributes to COVID severity score.
+
+<img src="../img/txhover.png" width="500">
+
+>Finally, we included a predictive model that you can use to predict COVID severity for other counties in the United States.
+
+<img src="../img/demo.png" width="425">
+
+**In order to use our interactive demo, please download the github repo and run `app2.py` file in the [Flask](../Flask) folder.**
+
+# Conclusions
+
+- Demographic data can explain some of the variability in when predicting COVID severity in different US counties.
+- Population density and income per capita were the two strongest predictive features we using data from all five states.
+- Other predictive features were more important on a state-level, such as race, age, and having health insurance.
+
+# Future Work
+
+This work could be improved in the future through the following: 
+- Gathering more data for both these state and others.
+- Updating the interactive app to include new data and states.
+- Including additional features likely to impact COVID severity in the model.
+
+# References and Data Sources
+### References
+1: [Why does COVID-19 disproportionately affect older people?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7288963/)  
+2: [Coronavirus: Why Men are More Vulnerable to Covid-19 Than Women?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7271824/)  
+3: [Coronavirus disease (COVID-19): Herd immunity, lockdowns and COVID-19](https://www.who.int/news-room/q-a-detail/herd-immunity-lockdowns-and-covid-19)
+
+### Data Sources
+[California COVID Data](https://covid19.ca.gov/state-dashboard/)  
+[Florida COVID Data](https://floridahealthcovid19.gov/)  
+[Illinois COVID Data](https://www.dph.illinois.gov/covid19/covid19-statistics)  
+[New York COVID Data](https://covid19tracker.health.ny.gov/views/NYS-COVID19-Tracker/NYSDOHCOVID-19Tracker-Map?%3Aembed=yes&%3Atoolbar=no&%3Atabs=n)  
+[Texas COVID Data](https://dshs.texas.gov/coronavirus/additionaldata.aspx)  
+[Census Datasets](https://api.census.gov/data.html)  
+[Census FIPS codes](https://www2.census.gov/geo/docs/reference/codes/files/)  
+[Census Geographic Data](https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.2018.html)  
+[CDC Obesity Data](https://gis.cdc.gov/grasp/diabetes/DiabetesAtlas.html)  
+[American Community Survey 5-Year Data (2009-2018)](https://www.census.gov/data/developers/data-sets/acs-5year.html)  
+[Notes on ACS Estimate and Annotation Values](https://www.census.gov/data/developers/data-sets/acs-1year/notes-on-acs-estimate-and-annotation-values.html)  
+[GeoJson Data CA, IL, NY](https://github.com/codeforamerica/click_that_hood/blob/master/public/data/)  
+[GeoJson Data FL](https://www2.census.gov/geo/tiger/TIGER2010/COUNTY/2010/)  
+[GeoJson Data TX](https://github.com/TNRIS/tx.geojson/blob/master/counties/tx_counties.geojson)  
 
 # Data Dictionary
 
