@@ -39,7 +39,7 @@ Data is modeled across five states and for each state individually. Conclusions 
 
 We weren't able to achieve high accuracy when we used all five states data for modeling, however, the models performed significantly better in some cases when we used state-level data for our of our models.
 
-This variation in models' predictive accuracy between all 5 states and state level data can be explained by data variation from one state to another, which eventually led to disparities between state-level models in terms of predictive features importance. For instance, population density and income per capita were the two most important features in our model using data from all five states, but other features like race percentage, age groups percentage, and having health insurance were more important in models using state-level data.
+This variation in models' predictive accuracy between all five states and state level data can be explained by data variation from one state to another, which eventually led to disparities between state-level models in terms of predictive features importance. For instance, population density and income per capita were the two most important features in our model using data from all five states, but other features like race percentage, age groups percentage, and having health insurance were more important in models using state-level data.
 
 | Region             | Best Regression R2 | Best Classification Accuracy | Classification Baseline |
 |--------------------|--------------------|------------------------------|-------------------------|
@@ -56,7 +56,7 @@ This variation in models' predictive accuracy between all 5 states and state lev
 With more data being collected everyday, we are improving our understanding on how different states and counties are affected by COVID. We will try to improve our models' performance in the future as more data becomes available.
 
 - **Widley varying state-level data.**
-As we mentioned earlier, we noticed that data varies widely on state-level, which explaines why our state-level models performed better than our models using all 5 states data for the most part.
+As we mentioned earlier, we noticed that data varies widely on state-level, which explaines why our state-level models performed better than our models using all five states data for the most part.
 
 - **More features are needed.**
 There are other factors which we didn't investigate in our models that might also be important to predict COVID severity, such as county mask wearing policies and the percentage of people wearing masks in each counties. 
