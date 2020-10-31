@@ -67,21 +67,21 @@ We utilized [Folium](https://python-visualization.github.io/folium/) and [Flask]
 
 You can select any of the five states in the home page for a county-level visualization of COVID severity.
 
-<img src="../img/homepage.png" width="500">
+<img src="/img/homepage.png" width="500">
 
 >Let's use Texas as an example. You can see that different counties are highlighted with three different shades of red that goes from light to dark as COVID severity increases. 
 
-<img src="../img/tx.png" width="500">
+<img src="/img/tx.png" width="500">
 
 >You can hover over any county to get a more detailed breakdown of county-level factors that contributes to COVID severity score.
 
-<img src="../img/txhover.png" width="500">
+<img src="/img/txhover.png" width="500">
 
 >Finally, we included a predictive model that you can use to predict COVID severity for other counties in the United States.
 
-<img src="../img/demo.png" width="425">
+<img src="/img/demo.png" width="425">
 
-**In order to use our interactive demo, please download the github repo and run `app2.py` file in the [Flask](../Flask) folder.**
+*In order to use our interactive demo, please download the github repo and run `app2.py` file in the [Flask](../Flask) folder.*
 
 # Conclusions
 
